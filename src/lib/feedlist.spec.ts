@@ -5,9 +5,9 @@ import test from 'ava';
 import {
   CLUSTER_SLUGS,
   ENV,
-  Strategy,
   FeedInfo,
-  FeedListProvider
+  FeedListProvider,
+  Strategy
 } from './feedlist';
 
 test('Feed list is filterable by a tag', async (t) => {
