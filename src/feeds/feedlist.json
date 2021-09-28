@@ -10,6 +10,10 @@
       "name": "lp-token",
       "description": "Asset representing liquidity provider token"
     },
+    "volatility": {
+      "name": "volatility",
+      "description": "Asset representing volatility"
+    },
     "nft": {
       "name": "nft",
       "description": "Non-fungible token"

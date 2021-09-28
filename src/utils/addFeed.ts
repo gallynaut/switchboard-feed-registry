@@ -3,6 +3,7 @@ Work in progress
 The goal is to have a command line interface to easily
 add new feeds to the common json file
 */
+// import { readFileSync } from 'fs';
 import { URL } from 'url';
 
 import { Cluster, clusterApiUrl, Connection, PublicKey } from '@solana/web3.js';
@@ -33,29 +34,32 @@ const questions: PromptObject[] = [
   },
   {
     type: 'text',
-    name: 'address',
-    message: 'What is the Public Key of the Data Feed Account?',
-  },
-  {
-    type: 'text',
     name: 'name',
     message: 'What is the name of the Data Feed?',
     initial: '',
   },
   {
     type: 'text',
-    name: 'description',
-    message: 'Short description of the Data Feed',
-    initial: '',
+    name: 'address',
+    message: 'What is the Public Key of the Data Feed Account?',
+  },
+
+  {
+    type: 'text',
+    name: 'optimizedAddress',
+    message: 'What is the Public Key of the Optimized Account?',
   },
   {
     type: 'multiselect',
     name: 'tags',
     message: 'Select the tags',
     choices: [
-      { title: 'Stablecoin', value: 'Stablecoin' },
-      { title: 'LP Token', value: 'LP Token' },
-      { title: 'NFT', value: 'NFT' },
+      { title: 'Stablecoin', value: 'stablecoin' },
+      { title: 'LP Token', value: 'lp-token' },
+      { title: 'Volatility', value: 'volatility' },
+      { title: 'Tokenized Stock', value: 'tokenized-stock' },
+      { title: 'NFT', value: 'nft' },
+      { title: 'Sports', value: 'sports' },
     ],
   },
 ];
@@ -72,7 +76,7 @@ function toCluster(cluster: string): Cluster {
 }
 
 async function main() {
-  const { cluster, address, name, description, tags } = await prompts(
+  const { cluster, name, address, optimizedAddress, tags } = await prompts(
     questions
   );
   const chainId: number = CLUSTER_SLUGS[cluster];
@@ -89,14 +93,24 @@ async function main() {
     chainId: chainId,
     name: name,
     feedAddress: address,
-    optimizedFeedAddress: '',
-    description: description,
+    optimizedFeedAddress: optimizedAddress,
+    description: '',
     jobs: endpoints,
     tags: tags,
   };
 
   console.log(JSON.stringify(feed, null, 2));
+
   // Need to write it back to file when done
+
+  // try {
+  //   const jsonBuffer = readFileSync('../feeds/feedlist.json', 'utf-8');
+  //   const fileList: FeedList = JSON.parse(jsonBuffer.toString());
+  //   console.log(fileList.timestamp);
+  // } catch (err) {
+  //   console.log(err);
+  //   return;
+  // }
 }
 
 main().then(
