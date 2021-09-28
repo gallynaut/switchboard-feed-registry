@@ -8,4 +8,4 @@ coverage
 *.log
 package-lock.json
 .DS_Store
-./src/utils/output.json
+src/utils/output.json

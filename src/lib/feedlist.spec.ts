@@ -14,19 +14,6 @@ test('Feed list is filterable by a tag', async (t) => {
   t.false(list.some((item) => item.name === 'BTC/USD'));
 });
 
-test('Feed list contains SOL/USD', async (t) => {
-  const list = (await new FeedListProvider().resolve(Strategy.Static))
-    .filterByChainId(ENV.MainnetBeta)
-    .filterByName('SOL/USD')
-    .getList();
-
-  t.true(
-    list.length === 1 &&
-      list[0].name === 'SOL/USD' &&
-      list[0].feedAddress === 'AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL'
-  );
-});
-
 test('Feed list can exclude by a tag', async (t) => {
   const list = (await new FeedListProvider().resolve(Strategy.Static))
     .filterByChainId(ENV.MainnetBeta)
