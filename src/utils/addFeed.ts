@@ -1,3 +1,8 @@
+/*
+Work in progress
+The goal is to have a command line interface to easily
+add new feeds to the common json file
+*/
 import { URL } from 'url';
 
 import { Cluster, clusterApiUrl, Connection, PublicKey } from '@solana/web3.js';
@@ -9,7 +14,23 @@ import {
 } from '@switchboard-xyz/switchboard-api';
 import prompts, { PromptObject } from 'prompts';
 
+import { CLUSTER_SLUGS } from '../lib/feedlist';
+import { FeedInfo } from '../types';
+
 const questions: PromptObject[] = [
+  {
+    type: 'select',
+    name: 'cluster',
+    message: 'Solana network?',
+    choices: [
+      {
+        title: 'Mainnet-Beta',
+        value: 'mainnet-beta',
+      },
+      { title: 'Devnet', value: 'devnet' },
+    ],
+    initial: 0,
+  },
   {
     type: 'text',
     name: 'address',
@@ -39,18 +60,6 @@ const questions: PromptObject[] = [
   },
 ];
 
-interface FeedInfo {
-  name?: string;
-  shortName?: string;
-  description?: string;
-  address?: string;
-  optimizedAddress?: string;
-  jobs?: string[];
-  tags?: string[];
-  minConfirmation?: number | null;
-  minUpdateDelay?: number | null;
-}
-
 function toCluster(cluster: string): Cluster {
   switch (cluster) {
     case 'devnet':
@@ -63,47 +72,31 @@ function toCluster(cluster: string): Cluster {
 }
 
 async function main() {
-  const cluster = 'mainnet-beta';
+  const { cluster, address, name, description, tags } = await prompts(
+    questions
+  );
+  const chainId: number = CLUSTER_SLUGS[cluster];
   const url = clusterApiUrl(toCluster(cluster), true);
   const connection = new Connection(url, 'processed');
-
-  const { address, name, description, tags } = await prompts(questions);
   const dataFeed = new PublicKey(address);
-
-  const agg: AggregatorState = await parseAggregatorAccountData(
+  const aggregatorAccount: AggregatorState = await parseAggregatorAccountData(
     connection,
     dataFeed
   );
+
+  const endpoints = await getFeedEndpoints(connection, aggregatorAccount);
   const feed: FeedInfo = {
+    chainId: chainId,
     name: name,
-    shortName: name,
-    address: address,
+    feedAddress: address,
+    optimizedFeedAddress: '',
     description: description,
-    jobs: [],
+    jobs: endpoints,
     tags: tags,
-    minConfirmation: agg.configs?.minConfirmations,
-    minUpdateDelay: agg.configs?.minUpdateDelaySeconds,
   };
 
-  const jobs = await Promise.all(
-    agg.jobDefinitionPubkeys
-      .map((j) => new PublicKey(j))
-      .map((job) => parseOracleJobAccountData(connection, job))
-  );
-  jobs.forEach((j) => {
-    const first: OracleJob.ITask = j.tasks[0];
-    const fetchTask:
-      | OracleJob.IHttpTask
-      | OracleJob.IWebsocketTask
-      | null
-      | undefined = 'httpTask' in first ? first.httpTask : null;
-    if (fetchTask?.url && fetchTask.url !== null) {
-      const url = new URL(fetchTask.url);
-      feed.jobs?.push(url.hostname);
-    }
-  });
-
   console.log(JSON.stringify(feed, null, 2));
+  // Need to write it back to file when done
 }
 
 main().then(
@@ -114,3 +107,35 @@ main().then(
     process.exit(-1);
   }
 );
+
+async function getFeedEndpoints(
+  connection: Connection,
+  aggregatorAccount: AggregatorState
+): Promise<string[]> {
+  const jobEndpoints: string[] = [];
+
+  const jobs: OracleJob[] = await Promise.all(
+    aggregatorAccount.jobDefinitionPubkeys
+      .map((j) => new PublicKey(j))
+      .map((job) => parseOracleJobAccountData(connection, job))
+  );
+  jobs.forEach((j) => {
+    const firstTask: OracleJob.ITask = j.tasks[0];
+    const url = getUrl(firstTask);
+    if (url) {
+      jobEndpoints.push(url);
+    }
+  });
+  return jobEndpoints;
+}
+
+function getUrl(task: OracleJob.ITask): string | null {
+  if (task.httpTask?.url) {
+    const url = new URL(task.httpTask?.url);
+    return url.hostname;
+  } else if (task.websocketTask?.url) {
+    const url = new URL(task.websocketTask?.url);
+    return url.hostname;
+  }
+  return null;
+}

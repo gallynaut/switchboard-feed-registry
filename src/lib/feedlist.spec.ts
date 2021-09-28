@@ -2,13 +2,8 @@ import fs from 'fs';
 
 import test from 'ava';
 
-import {
-  CLUSTER_SLUGS,
-  ENV,
-  FeedInfo,
-  FeedListProvider,
-  Strategy,
-} from '../index';
+import { CLUSTER_SLUGS, ENV, FeedListProvider, Strategy } from '../index';
+import { FeedInfo } from '../types';
 
 test('Feed list is filterable by a tag', async (t) => {
   const list = (await new FeedListProvider().resolve(Strategy.Static))
@@ -28,7 +23,7 @@ test('Feed list contains SOL/USD', async (t) => {
   t.true(
     list.length === 1 &&
       list[0].name === 'SOL/USD' &&
-      list[0].address === 'AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL'
+      list[0].feedAddress === 'AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL'
   );
 });
 
@@ -81,12 +76,12 @@ test('Feed list does not have duplicate entries', async (t) => {
     .filterByChainId(ENV.MainnetBeta)
     .getList()
     .reduce((agg, item) => {
-      if (agg.has(item.address)) {
-        console.log(item.address);
+      if (agg.has(item.feedAddress)) {
+        console.log(item.feedAddress);
       }
 
-      t.false(agg.has(item.address));
-      agg.set(item.address, item);
+      t.false(agg.has(item.feedAddress));
+      agg.set(item.feedAddress, item);
       return agg;
     }, new Map<string, FeedInfo>());
 });

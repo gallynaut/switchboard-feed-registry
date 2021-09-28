@@ -1,37 +1,15 @@
 import { fetch } from 'cross-fetch';
 
 import feedlist from '../feeds/feedlist.json';
+import { FeedInfo, FeedList } from '../types';
+
+export type FeedInfoMap = Map<string, FeedInfo>;
 
 export enum ENV {
   MainnetBeta = 101,
   Testnet = 102,
   Devnet = 103,
 }
-
-export interface FeedList {
-  readonly name: string;
-  readonly description: string;
-  readonly tags: { [tag: string]: TagDetails };
-  readonly timestamp: string;
-  readonly feeds: FeedInfo[];
-}
-
-export interface TagDetails {
-  readonly name: string;
-  readonly description: string;
-}
-
-export interface FeedInfo {
-  readonly chainId: number;
-  readonly address: string;
-  readonly optimizedAddress: string;
-  readonly name: string;
-  readonly shortName: string;
-  readonly tags?: string[];
-  readonly jobs?: string[];
-}
-
-export type FeedInfoMap = Map<string, FeedInfo>;
 
 export const CLUSTER_SLUGS: { [id: string]: ENV } = {
   'mainnet-beta': ENV.MainnetBeta,
