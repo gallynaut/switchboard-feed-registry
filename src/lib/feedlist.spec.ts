@@ -22,14 +22,13 @@ test('Feed list is filterable by a tag', async (t) => {
 test('Feed list contains SOL/USD', async (t) => {
   const list = (await new FeedListProvider().resolve(Strategy.Static))
     .filterByChainId(ENV.MainnetBeta)
+    .filterByName('SOL/USD')
     .getList();
 
   t.true(
-    list.some(
-      (item) =>
-        item.name === 'SOL/USD' &&
-        item.address === 'AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL'
-    )
+    list.length === 1 &&
+      list[0].name === 'SOL/USD' &&
+      list[0].address === 'AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL'
   );
 });
 

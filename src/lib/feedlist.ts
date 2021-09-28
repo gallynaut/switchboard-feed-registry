@@ -68,7 +68,7 @@ const queryJsonFiles = async (files: string[]) => {
         return json;
       } catch {
         console.info(
-          `@solana/feed-registry: falling back to static repository.`
+          `@switchboardxyz/feed-registry: falling back to static repository.`
         );
         return feedlist;
       }
@@ -134,6 +134,12 @@ export class FeedListContainer {
   filterByChainId = (chainId: number | ENV) => {
     return new FeedListContainer(
       this.feedList.filter((item) => item.chainId === chainId)
+    );
+  };
+
+  filterByName = (query: string) => {
+    return new FeedListContainer(
+      this.feedList.filter((item) => item.name.includes(query))
     );
   };
 
