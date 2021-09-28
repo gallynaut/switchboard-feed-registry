@@ -15,7 +15,7 @@ export interface FeedInfo {
   readonly chainId: number;
   readonly feedAddress: string;
   readonly optimizedFeedAddress: string;
-  readonly quoteSplAddress?: string;
+  readonly splAddress?: string;
   readonly name: string;
   readonly description?: string;
   readonly tags?: string[];

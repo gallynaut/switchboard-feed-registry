@@ -1,6 +1,6 @@
 {
   "name": "Switchboard Feed List",
-  "timestamp": "2021-03-03T19:57:21+0000",
+  "timestamp": "2021-09-28T19:57:21+0000",
   "tags": {
     "stablecoin": {
       "name": "stablecoin",
@@ -378,6 +378,7 @@
       "name": "SRM/USD",
       "feedAddress": "BAoygKcKN7wk8yKzLD6sxzUQUqLvhBV1rjMA4UJqfZuH",
       "optimizedFeedAddress": "BtptXdTAQyfXMDCyFhv1peTcHFSFXRgAQusnerDTBqUU",
+      "splAddress": "",
       "description": "",
       "jobs": [
         "ftx.com",
@@ -391,6 +392,7 @@
       "name": "AR/USD",
       "feedAddress": "BPVRQxZ3s9pZmUGSjpZ6KAhR6PdnjPm7uccdqf66MqVg",
       "optimizedFeedAddress": "EDagMHo9tc2EQRskZS71PbyfzehBnrmzw5X9ZuBJaxc1",
+      "splAddress": "",
       "description": "",
       "jobs": [
         "www.binance.com",
@@ -420,6 +422,7 @@
       "name": "KIN/USD",
       "feedAddress": "14nae7WbZaSxu6qENnjrG2zPWDZ1UsPYiJcFU6LyAnhK",
       "optimizedFeedAddress": "5niwkRUbU5CcLZ9nASNZG3XWiFWw7QzCT2MXts6smVjn",
+      "splAddress": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
       "description": "",
       "jobs": [
         "ftx.com",
@@ -432,6 +435,7 @@
       "name": "COPE/USD",
       "feedAddress": "8fntpLMJQKbFBRq7vNDQ3Lw1m33kcB2BvdnUYVs4j5G5",
       "optimizedFeedAddress": "3e57oVNdoR5APFThnDKpSv8zFdZEsZNUjMCmYEGdAHkb",
+      "splAddress": "8HGyAAB1yoM1ttS7pXjHMa3dukTFGQggnFFH3hJZgzQh",
       "description": "",
       "jobs": [
         "ftx.com"
@@ -443,6 +447,7 @@
       "name": "USDC/USD",
       "feedAddress": "CZx29wKMUxaJDq6aLVQTdViPL754tTR64NAgQBUGxxHb",
       "optimizedFeedAddress": "CEgW2DvUX1DfthyAMeQdkckJjuCFwnwSGW2PiMv6hDag",
+      "splAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "description": "",
       "jobs": [
         "ws-feed.pro.coinbase.com",
@@ -464,6 +469,7 @@
       "name": "LINK/USD",
       "feedAddress": "rxcwjrYfLnH8KPBViaS1EL3kFKUZBK8FGpkFmzxDf4T",
       "optimizedFeedAddress": "DaLVeCU2iz53Z8WsjpB1bLbWacerPGYRK4UrneGpDemE",
+      "splAddress": "",
       "description": "",
       "jobs": [
         "ws-feed.pro.coinbase.com",
@@ -482,6 +488,7 @@
       "name": "GRT/USD",
       "feedAddress": "78WGMGmLDYB24i1mppzs74GtZ9BXc9Mu3kFCUbEpahcG",
       "optimizedFeedAddress": "HWLWWcQJep8cTCjtpiUq7sMNaV9ettE9LrcUB39N8v2S",
+      "splAddress": "",
       "description": "",
       "jobs": [
         "ws-feed.pro.coinbase.com",
@@ -499,6 +506,7 @@
       "name": "YFI/USD",
       "feedAddress": "3pMsD3Gqi8ZW51zEYMxanT8GfPWs98okT1CFSFmPn6mt",
       "optimizedFeedAddress": "7UDx1i2vVtW38UmgX95kAMg4CFMdvUoSsvGHChB98ges",
+      "splAddress": "",
       "description": "",
       "jobs": [
         "ws-feed.pro.coinbase.com",
@@ -517,6 +525,7 @@
       "name": "COMP/USD",
       "feedAddress": "Fe3WmbVNuPYYaW2MEpFiPE1tJXw6NXssTfRd9XStNUNS",
       "optimizedFeedAddress": "3awDYQ4giUY5kmQb7QEfEcjcQMD5jLASct4Ppy5Ar3aK",
+      "splAddress": "",
       "description": "",
       "jobs": [
         "ws-feed.pro.coinbase.com",
@@ -535,6 +544,7 @@
       "name": "RAY/USD",
       "feedAddress": "CppyF6264uKZkGua1brTUa2fSVdMFSCszwzDs76HCuzU",
       "optimizedFeedAddress": "AS2yMpqPY16tY5hQmpdkomaqSckMuDvR6K9P9tk9FA4d",
+      "splAddress": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
       "description": "",
       "jobs": [
         "ftx.com",
@@ -547,6 +557,7 @@
       "name": "STEP/USD",
       "feedAddress": "4bTCjzmtdRgK4ZvdaxX1Fx1Z3h6iApfM5qoaAhQBJAkj",
       "optimizedFeedAddress": "AyCed72RuLccyeJVsyu443pfLdJmVbZKFza5ahBBzGCE",
+      "splAddress": "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT",
       "description": "",
       "jobs": [
         "ftx.com"
@@ -558,6 +569,7 @@
       "name": "MER/USD",
       "feedAddress": "5pHX3fd81SpGywzsw4R12L3Xu3qd418h1PcnHpQAiMWA",
       "optimizedFeedAddress": "89svWJ1uM5nKgJ9xT5TTVcuvJ1SKXiF5fAzKVGZKa6zt",
+      "splAddress": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K",
       "description": "",
       "jobs": [
         "ftx.com",
@@ -570,6 +582,7 @@
       "name": "PAI/USD",
       "feedAddress": "G26LmGqGvoggYQm2zEKD15rL4LutkZFrtP8mRPd6gPjk",
       "optimizedFeedAddress": "6RpHQ4cWo3PfZmh2cPiuiKLdbNS9v8AjdFeYDxsJ78Mn",
+      "splAddress": "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS",
       "description": "",
       "jobs": [],
       "tags": [
@@ -581,6 +594,7 @@
       "name": "MNGO/USD",
       "feedAddress": "C1X7qfn59AKGzeUMtfxDgfyGT3VfQLyAoTpv7ULWmmvm",
       "optimizedFeedAddress": "49cnp1ejyvQi3CJw3kKXNCDGnNbWDuZd3UG3Y2zGvQkX",
+      "splAddress": "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac",
       "description": "",
       "jobs": [
         "ftx.com"
@@ -592,6 +606,7 @@
       "name": "ORCA/USD",
       "feedAddress": "EHwSRkm2ErRjWxCxrTxrmC7sT2kGb5jJcsiindUHAX7W",
       "optimizedFeedAddress": "GzsGsb8uxk53a1vQNSXoNfyB2YZtnxFbGfKTUqcs4r33",
+      "splAddress": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
       "description": "",
       "jobs": [
         "api.orca.so",
@@ -604,6 +619,7 @@
       "name": "SBR/USD",
       "feedAddress": "Lp3VNoRQi699VZe6u59TV8J38ELEUzxkaisoWsDuJgB",
       "optimizedFeedAddress": "32K4uqcU17n8kmxtaMyNQ4WDYv3Dr3ChFapsifDGeacL",
+      "splAddress": "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1",
       "description": "",
       "jobs": [
         "api.raydium.io"
@@ -615,6 +631,7 @@
       "name": "mSOL/SOL",
       "feedAddress": "45VccxvbWWtU4ZLjn4XK7qEHQfk9eZU94a4KsRJzMNme",
       "optimizedFeedAddress": "F4syxcHNx7rV8ANn5DnXgtvvAaM5odXCm5sDYsAQiVHW",
+      "splAddress": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
       "description": "",
       "jobs": [
         "api.raydium.io"
@@ -626,6 +643,7 @@
       "name": "PORT/USD",
       "feedAddress": "nNLJQuvjqdd4e53f47BXkXZr4prJbMaeJLHZj4JiYNV",
       "optimizedFeedAddress": "HTvL594QhRLTfqCo6Ysz2KZUAfEu9jr7YzxqcpmjMAUY",
+      "splAddress": "PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y",
       "description": "",
       "jobs": [
         "api.raydium.io"
@@ -637,6 +655,7 @@
       "name": "LIQ/USD",
       "feedAddress": "6GX3PgHqB4ykkF8sTwhzkCAXcmrrrPLGvMLDCnrxqnb5",
       "optimizedFeedAddress": "JpdcetYMHN1mrv3E2NFxED65EhtgAgZZxjFZ5xku7Wx",
+      "splAddress": "4wjPQJ6PrkC4dHhYghwJzGBVP78DkBzA2U3kHoFNBuhj",
       "description": "",
       "jobs": [
         "api.orca.so",
@@ -649,6 +668,7 @@
       "name": "stSOL/USD",
       "feedAddress": "9r2p6vyF8Wp5YB2DASK95yuXEakQth6wmUmV2DpH91WX",
       "optimizedFeedAddress": "9noUZQrJacM8gPtGhKexxu3yJN5c9fnCZS82p4KSkb3N",
+      "splAddress": "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj",
       "description": "",
       "jobs": [
         "api.raydium.io"
@@ -660,6 +680,7 @@
       "name": "SOCN/USD",
       "feedAddress": "DpzEKDSszosuzRUdRYzEcEbt6iZ4xhVEANQSRAYDYw8h",
       "optimizedFeedAddress": "6oeKZy8ERLraPmQ7uG7eBQZ8kzu7QHrGKzBKRmGFW85S",
+      "splAddress": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
       "description": "",
       "jobs": [
         "api.orca.so"
