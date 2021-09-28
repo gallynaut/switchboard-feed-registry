@@ -7,8 +7,8 @@ import {
   ENV,
   FeedInfo,
   FeedListProvider,
-  Strategy
-} from './feedlist';
+  Strategy,
+} from '../index';
 
 test('Feed list is filterable by a tag', async (t) => {
   const list = (await new FeedListProvider().resolve(Strategy.Static))
@@ -17,6 +17,20 @@ test('Feed list is filterable by a tag', async (t) => {
     .getList();
 
   t.false(list.some((item) => item.name === 'BTC/USD'));
+});
+
+test('Feed list contains SOL/USD', async (t) => {
+  const list = (await new FeedListProvider().resolve(Strategy.Static))
+    .filterByChainId(ENV.MainnetBeta)
+    .getList();
+
+  t.true(
+    list.some(
+      (item) =>
+        item.name === 'SOL/USD' &&
+        item.address === 'AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL'
+    )
+  );
 });
 
 test('Feed list can exclude by a tag', async (t) => {

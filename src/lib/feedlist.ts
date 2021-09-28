@@ -5,7 +5,7 @@ import feedlist from '../feeds/feedlist.json';
 export enum ENV {
   MainnetBeta = 101,
   Testnet = 102,
-  Devnet = 103
+  Devnet = 103,
 }
 
 export interface FeedList {
@@ -36,12 +36,12 @@ export type FeedInfoMap = Map<string, FeedInfo>;
 export const CLUSTER_SLUGS: { [id: string]: ENV } = {
   'mainnet-beta': ENV.MainnetBeta,
   testnet: ENV.Testnet,
-  devnet: ENV.Devnet
+  devnet: ENV.Devnet,
 };
 
 export class GitHubFeedListResolutionStrategy {
   repositories = [
-    'https://raw.githubusercontent.com/switchboardxyz/feed-list/main/src/feeds/feedlist.json'
+    'https://raw.githubusercontent.com/switchboardxyz/feed-list/main/src/feeds/feedlist.json',
   ];
 
   resolve = () => {
@@ -51,7 +51,7 @@ export class GitHubFeedListResolutionStrategy {
 
 export class CDNFeedListResolutionStrategy {
   repositories = [
-    'https://cdn.jsdelivr.net/gh/switchboardxyz/feed-list@main/src/feeds/feedlist.json'
+    'https://cdn.jsdelivr.net/gh/switchboardxyz/feed-list@main/src/feeds/feedlist.json',
   ];
 
   resolve = () => {
@@ -84,7 +84,7 @@ export enum Strategy {
   GitHub = 'GitHub',
   Static = 'Static',
   Solana = 'Solana',
-  CDN = 'CDN'
+  CDN = 'CDN',
 }
 
 export class SolanaFeedListResolutionStrategy {
@@ -104,7 +104,7 @@ export class FeedListProvider {
     [Strategy.GitHub]: new GitHubFeedListResolutionStrategy(),
     [Strategy.Static]: new StaticFeedListResolutionStrategy(),
     [Strategy.Solana]: new SolanaFeedListResolutionStrategy(),
-    [Strategy.CDN]: new CDNFeedListResolutionStrategy()
+    [Strategy.CDN]: new CDNFeedListResolutionStrategy(),
   };
 
   resolve = async (
