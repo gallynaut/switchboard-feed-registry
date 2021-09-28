@@ -3,7 +3,7 @@ Work in progress
 The goal is to have a command line interface to easily
 add new feeds to the common json file
 */
-// import { readFileSync } from 'fs';
+import * as fs from 'fs';
 import { URL } from 'url';
 
 import { Cluster, clusterApiUrl, Connection, PublicKey } from '@solana/web3.js';
@@ -98,19 +98,13 @@ async function main() {
     jobs: endpoints,
     tags: tags,
   };
+  const fileStr = JSON.stringify(feed, null, 2) + ',\r\n';
 
-  console.log(JSON.stringify(feed, null, 2));
+  console.log(fileStr);
 
   // Need to write it back to file when done
 
-  // try {
-  //   const jsonBuffer = readFileSync('../feeds/feedlist.json', 'utf-8');
-  //   const fileList: FeedList = JSON.parse(jsonBuffer.toString());
-  //   console.log(fileList.timestamp);
-  // } catch (err) {
-  //   console.log(err);
-  //   return;
-  // }
+  fs.appendFileSync('./src/utils/output.json', fileStr, 'utf-8');
 }
 
 main().then(
