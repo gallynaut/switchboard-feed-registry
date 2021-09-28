@@ -24,11 +24,11 @@ export interface TagDetails {
 export interface FeedInfo {
   readonly chainId: number;
   readonly address: string;
+  readonly optimizedAddress: string;
   readonly name: string;
   readonly shortName: string;
-  // readonly logoURI?: string;
   readonly tags?: string[];
-  // readonly extensions?: FeedExtensions;
+  readonly jobs?: string[];
 }
 
 export type FeedInfoMap = Map<string, FeedInfo>;
@@ -122,6 +122,12 @@ export class FeedListContainer {
   filterByTag = (tag: string) => {
     return new FeedListContainer(
       this.feedList.filter((item) => (item.tags || []).includes(tag))
+    );
+  };
+
+  filterByJob = (job: string) => {
+    return new FeedListContainer(
+      this.feedList.filter((item) => (item.jobs || []).includes(job))
     );
   };
 

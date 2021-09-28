@@ -20,25 +20,151 @@
     },
     "sports": {
       "name": "sports",
-      "description": "Sport statistic"
+      "description": "Sport related stat, e.g. the number of wins this season for the NY Yankeess"
     }
   },
   "feeds": [
     {
       "chainId": 101,
       "address": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng",
+      "optimizedAddress": "3HtmwdXJPAdMZ73fTGeCFgbDQZGLZWpmsm3JAB5quGJN",
       "name": "BTC/USD",
       "shortName": "BTC/USD",
       "description": "",
-      "tags": []
+      "tags": [],
+      "jobs": [
+        "ftx.com",
+        "ftx.us",
+        "ws-feed.pro.coinbase.com",
+        "bitstamp.net",
+        "binance.us",
+        "binance.com",
+        "api-pub.bitfinex.com",
+        "api.bittrex.com",
+        "ws.okex.com",
+        "api-huobi.pro",
+        "mxc.com",
+        "api.kraken.com"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng",
+      "optimizedAddress": "9csVZ3xrp1MtisJMUchkWQJbYtuwbzsDqf9gYpCdyQ5C",
+      "name": "BTC/USD",
+      "shortName": "BTC/USD",
+      "description": "",
+      "tags": [],
+      "jobs": [
+        "ftx.com",
+        "ftx.us",
+        "ws-feed.pro.coinbase.com",
+        "bitstamp.net",
+        "binance.us",
+        "binance.com",
+        "api-pub.bitfinex.com",
+        "api.bittrex.com",
+        "ws.okex.com",
+        "api-huobi.pro",
+        "mxc.com",
+        "api.kraken.com"
+      ]
     },
     {
       "chainId": 101,
       "address": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz",
+      "optimizedAddress": "5AmfBzMcqgr9eacyiSVsJZt7EXtNxrMNDs1wBuEQphcT",
       "type": "Trading",
       "name": "ETH/USD",
       "shortName": "ETH/USD",
-      "description": ""
+      "description": "",
+      "tags": [],
+      "jobs": [
+        "ftx.com",
+        "ftx.us",
+        "ws-feed.pro.coinbase.com",
+        "bitstamp.net",
+        "binance.us",
+        "binance.com",
+        "api-pub.bitfinex.com",
+        "api.bittrex.com",
+        "ws.okex.com",
+        "api-huobi.pro",
+        "mxc.com",
+        "api.kraken.com"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz",
+      "optimizedAddress": "45qhBcmMt2mBpGiKtjDJFXNj5MNV2op4AsMHucYWVqsJ",
+      "type": "Trading",
+      "name": "ETH/USD",
+      "shortName": "ETH/USD",
+      "description": "",
+      "tags": [],
+      "jobs": [
+        "ftx.com",
+        "ftx.us",
+        "ws-feed.pro.coinbase.com",
+        "bitstamp.net",
+        "binance.us",
+        "binance.com",
+        "api-pub.bitfinex.com",
+        "api.bittrex.com",
+        "ws.okex.com",
+        "api-huobi.pro",
+        "mxc.com",
+        "api.kraken.com"
+      ]
+    },
+    {
+      "chainId": 101,
+      "address": "AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL",
+      "optimizedAddress": "DfjRzSdj5wm1kHfijm3dQsoZB7kENWCGGWzwGpGesiYm",
+      "type": "Trading",
+      "name": "SOL/USD",
+      "shortName": "SOL/USD",
+      "description": "",
+      "tags": [],
+      "jobs": [
+        "ftx.com",
+        "ftx.us",
+        "ws-feed.pro.coinbase.com",
+        "bitstamp.net",
+        "binance.us",
+        "binance.com",
+        "api-pub.bitfinex.com",
+        "api.bittrex.com",
+        "ws.okex.com",
+        "api-huobi.pro",
+        "mxc.com",
+        "api.kraken.com"
+      ]
+    },
+    {
+      "chainId": 103,
+      "address": "AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL",
+      "optimizedAddress": "DpoK8Zz69APV9ntjuY9C4LZCxANYMV56M2cbXEdkjxME",
+      "type": "Trading",
+      "name": "SOL/USD",
+      "shortName": "SOL/USD",
+      "description": "",
+      "tags": [],
+      "jobs": [
+        "ftx.com",
+        "ftx.us",
+        "ws-feed.pro.coinbase.com",
+        "bitstamp.net",
+        "binance.us",
+        "binance.com",
+        "api-pub.bitfinex.com",
+        "api.bittrex.com",
+        "ws.okex.com",
+        "api-huobi.pro",
+        "mxc.com",
+        "api.kraken.com"
+      ]
     }
   ]
 }
