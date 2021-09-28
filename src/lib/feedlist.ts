@@ -10,7 +10,7 @@ export enum ENV {
 
 export interface FeedList {
   readonly name: string;
-  readonly logoURI: string;
+  readonly description: string;
   readonly tags: { [tag: string]: TagDetails };
   readonly timestamp: string;
   readonly feeds: FeedInfo[];
@@ -21,34 +21,14 @@ export interface TagDetails {
   readonly description: string;
 }
 
-export interface FeedExtensions {
-  readonly website?: string;
-  readonly bridgeContract?: string;
-  readonly assetContract?: string;
-  readonly address?: string;
-  readonly explorer?: string;
-  readonly twitter?: string;
-  readonly github?: string;
-  readonly medium?: string;
-  readonly tgann?: string;
-  readonly tggroup?: string;
-  readonly discord?: string;
-  readonly serumV3Usdt?: string;
-  readonly serumV3Usdc?: string;
-  readonly coingeckoId?: string;
-  readonly imageUrl?: string;
-  readonly description?: string;
-}
-
 export interface FeedInfo {
   readonly chainId: number;
   readonly address: string;
   readonly name: string;
-  readonly decimals: number;
-  readonly symbol: string;
-  readonly logoURI?: string;
+  readonly shortName: string;
+  // readonly logoURI?: string;
   readonly tags?: string[];
-  readonly extensions?: FeedExtensions;
+  // readonly extensions?: FeedExtensions;
 }
 
 export type FeedInfoMap = Map<string, FeedInfo>;
@@ -61,7 +41,7 @@ export const CLUSTER_SLUGS: { [id: string]: ENV } = {
 
 export class GitHubFeedListResolutionStrategy {
   repositories = [
-    'https://raw.githubusercontent.com/solana-labs/feed-list/main/src/feeds/feedlist.json'
+    'https://raw.githubusercontent.com/switchboardxyz/feed-list/main/src/feeds/feedlist.json'
   ];
 
   resolve = () => {
@@ -71,7 +51,7 @@ export class GitHubFeedListResolutionStrategy {
 
 export class CDNFeedListResolutionStrategy {
   repositories = [
-    'https://cdn.jsdelivr.net/gh/solana-labs/feed-list@main/src/feeds/feedlist.json'
+    'https://cdn.jsdelivr.net/gh/switchboardxyz/feed-list@main/src/feeds/feedlist.json'
   ];
 
   resolve = () => {
@@ -128,7 +108,7 @@ export class FeedListProvider {
   };
 
   resolve = async (
-    strategy: Strategy = Strategy.CDN
+    strategy: Strategy = Strategy.Static
   ): Promise<FeedListContainer> => {
     return new FeedListContainer(
       await FeedListProvider.strategies[strategy].resolve()

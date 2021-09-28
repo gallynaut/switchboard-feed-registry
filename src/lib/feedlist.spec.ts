@@ -16,7 +16,7 @@ test('Feed list is filterable by a tag', async (t) => {
     .filterByTag('nft')
     .getList();
 
-  t.false(list.some((item) => item.symbol === 'SOL'));
+  t.false(list.some((item) => item.name === 'BTC/USD'));
 });
 
 test('Feed list can exclude by a tag', async (t) => {
