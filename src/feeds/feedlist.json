@@ -687,6 +687,182 @@
         "www.binance.com"
       ],
       "tags": []
+    },
+    {
+      "chainId": 101,
+      "name": "GVOL BTC 1-Day IV",
+      "feedAddress": "6nkKqyx8fU1MyUHqY6UBMc17ib4U6BzWSeyP24YBFoWN",
+      "optimizedFeedAddress": "57HtzNrNGP7LtzsdRbmFqj5jgHUKL2HR2wnrPSrd4Qyu",
+      "description": "",
+      "jobs": [
+        "app.pinkswantrading.com"
+      ],
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "GVOL BTC 7-Day IV",
+      "feedAddress": "CX1PvW4qUDy4PPq8egnMVCbVJt8TcPCt7WCZuwmvCfo7",
+      "optimizedFeedAddress": "CeTDZpMSTkWDf8sWWHzpvZRRLR32BWcz7WBqjj8YLu6h",
+      "description": "",
+      "jobs": [
+        "app.pinkswantrading.com"
+      ],
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "GVOL BTC 28-Day IV",
+      "feedAddress": "5UnQ2tfZxgy6LAUEAjCoz9PTFVLfBY2MHHRCDjtqehpL",
+      "optimizedFeedAddress": "7eVviZHFQ5XWCzDP5yJeAECR2h6BhCf5jVM5H8b7vqtH",
+      "description": "",
+      "jobs": [
+        "app.pinkswantrading.com"
+      ],
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "GVOL ETH 1-Day IV",
+      "feedAddress": "4wRticsijcNQ1ECT2GmNZmdWBxNeABMX8o1D1nBRJUjB",
+      "optimizedFeedAddress": "8yszfCqD4XU3JeHaF9Mb7RzrST2LALST9jPBXrwi6Z3W",
+      "description": "",
+      "jobs": [
+        "app.pinkswantrading.com"
+      ],
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "GVOL ETH 7-Day IV",
+      "feedAddress": "4AGPMUEfBCSNqVd4Y6veHAep6VPtrkMa89rBhPqMYegz",
+      "optimizedFeedAddress": "2AXWsmzs3h4E3zf14zbVBdAho15TG29Vkq9xTg8jhH2v",
+      "description": "",
+      "jobs": [
+        "app.pinkswantrading.com"
+      ],
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "GVOL ETH 28-Day IV",
+      "feedAddress": "2vhpoXkmoc1oGb6tP7ShW42tzcHmNccLnMkQL5LVNmPB",
+      "optimizedFeedAddress": "3eXzhGxpatSFg5vaojjVa5Rp4XiT36KuusfrVeaVMDn9",
+      "description": "",
+      "jobs": [
+        "app.pinkswantrading.com"
+      ],
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "Mercurial Finance PAI-3Pool",
+      "feedAddress": "71Udyz54Wu2fFfVDeqmQ7B9WdaBLWqNcXpRLGGxnWeZc",
+      "optimizedFeedAddress": "3ScKEX7FPuK6x3qMBDqMbDaTBtXNou5mTYjisEYKC97b",
+      "description": "",
+      "jobs": [],
+      "tags": [
+        "lp-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "Mercurial Finance UST-3Pool",
+      "feedAddress": "78edz675aRmFTAJ1G3j3oJdA51hnLvWvtL8cQeB8HpRR",
+      "optimizedFeedAddress": "3GVgeZLdny4T7NGAveeF9BrPbnZbQ3wst4kQYJNabcgL",
+      "description": "",
+      "jobs": [],
+      "tags": [
+        "lp-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "Saber USDT-USDC",
+      "feedAddress": "4bkMJsmwrKH3VFw9QW3LH8rXfNEUvFLbp3dAu8wMyT5V",
+      "optimizedFeedAddress": "GqFfLd43ZqtidGoAS4y2FMqk1C8JoqVCgDcA6QvaohB7",
+      "description": "",
+      "jobs": [],
+      "tags": [
+        "lp-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "Saber UST-USDC",
+      "feedAddress": "F4HCHddHye972a7rChEACRf3kS9ZxNRnTKqznyL477cf",
+      "optimizedFeedAddress": "963vYeQMGhcSwv4VRFgoJZvKv6YDURuwzxBzN7SXJpsS",
+      "description": "",
+      "jobs": [],
+      "tags": [
+        "lp-token"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "Degenape Floor Price",
+      "feedAddress": "E9bvEBW2pjBcNCRFPUg9RpxPNWiYjYVXGcT2j1iDhzNS",
+      "optimizedFeedAddress": "Eaq61bgACon4kwSt5scHdiQnnw2P7wGA3HF5kVrN4uXB",
+      "description": "",
+      "jobs": [
+        "solanalysis-graphql-dot-feliz-finance.uc.r.appspot.com",
+        "jmccmlyu33.medianetwork.cloud"
+      ],
+      "tags": [
+        "nft"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "Solana Monkey Business Floor Price",
+      "feedAddress": "5Bej21h56zHkBEvN81nRve7Ny6So61RB5WjAYUQcgxDV",
+      "optimizedFeedAddress": "Cmjw7mVW5Er1YFAjPKiFFYcYj9CaJseC2X2iSwj3B6sp",
+      "description": "",
+      "jobs": [
+        "solanalysis-graphql-dot-feliz-finance.uc.r.appspot.com",
+        "market.solanamonkey.business"
+      ],
+      "tags": [
+        "nft"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "ARIZONA DIAMONDBACKS WINS",
+      "feedAddress": "FCAVucGDvvZ3MayyBdFRY9uM7ypXmHnNPsaGBWJfWXFU",
+      "optimizedFeedAddress": "Gdz8AqXgsK8ekJ2uXW4RUhTQqUGQE1NZJMRaax3wZHM1",
+      "description": "",
+      "jobs": [
+        "site.api.espn.com"
+      ],
+      "tags": [
+        "sports"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "ARIZONA DIAMONDBACKS WIN%",
+      "feedAddress": "Ge5mBBV2WwuCgFySds5q6VjKhtaqi3FtdS6JrLrdqgmf",
+      "optimizedFeedAddress": "CyZSqNx5YACXx1B5BQ1XJ2wszoFDEpKgthAZP5tSfuhu",
+      "description": "",
+      "jobs": [
+        "site.api.espn.com"
+      ],
+      "tags": [
+        "sports"
+      ]
     }
   ]
 }
