@@ -6,6 +6,10 @@
       "name": "stablecoin",
       "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
     },
+    "usd-pair": {
+      "name": "usd-pair",
+      "description": "Trading pair with USD as the base currency"
+    },
     "lp-token": {
       "name": "lp-token",
       "description": "Asset representing liquidity provider token"
@@ -34,7 +38,9 @@
       "feedAddress": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng",
       "optimizedFeedAddress": "3HtmwdXJPAdMZ73fTGeCFgbDQZGLZWpmsm3JAB5quGJN",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -42,7 +48,9 @@
       "feedAddress": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz",
       "optimizedFeedAddress": "5AmfBzMcqgr9eacyiSVsJZt7EXtNxrMNDs1wBuEQphcT",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -50,7 +58,9 @@
       "feedAddress": "AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL",
       "optimizedFeedAddress": "DfjRzSdj5wm1kHfijm3dQsoZB7kENWCGGWzwGpGesiYm",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -59,6 +69,7 @@
       "optimizedFeedAddress": "Eh5Vwr2ZbpXe2TUPXWXLnEeFDBXeS9xHrMe1EJwpLm9F",
       "description": "",
       "tags": [
+        "usd-pair",
         "stablecoin"
       ]
     },
@@ -68,7 +79,9 @@
       "feedAddress": "DZiiWo7kdmgyKKGAyESc7j5t7CQFqVLnHfB5RVegHwse",
       "optimizedFeedAddress": "AMWuQRw1nntNFd2PSSiVuUmLY2xGyvsPNoJCmfoGQkkd",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -76,7 +89,9 @@
       "feedAddress": "AUbsuZNuKJnxkRLWbsco7uBhVQo5T2c9bBF1nfbwuEZ5",
       "optimizedFeedAddress": "7YyzQ5QQZYMmNab5yU4ZsU4nyrk5N5RkZkcZMedx8Jo7",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -84,7 +99,9 @@
       "feedAddress": "FK9MxAy4ryBs6hzQC3ei8KkfgEp9DMSKtckmoLqsYwU4",
       "optimizedFeedAddress": "5jpKHLmJDBFbAZALZ6FgMwsRXqJRAc7Vb8EcN8tmQS3c",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -92,7 +109,9 @@
       "feedAddress": "AxD1uUspZP53cUVbzGApjwDQqEDQoAtj6Bocy8JJBnDb",
       "optimizedFeedAddress": "HbaWGrMXQ49Szwri3rK4u59AB91jydJvvDATygf1Z3DG",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -100,7 +119,9 @@
       "feedAddress": "nrpjSku5TXWSV9gqNYnuPdT2GFZA3npe95x5U33QiWs",
       "optimizedFeedAddress": "GNkiUYpnDYo1NeGeGaTovG1CpxWTtMGTu6uKQTH4H6pp",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -108,7 +129,9 @@
       "feedAddress": "DB3xhMmZPz3WMo8zbLE7dFukcDXqsEbNYUga4Yr1zHBq",
       "optimizedFeedAddress": "3sWdLzjNdkxfcSPgGdUs5tLbRYryS3EnW8PXiN6cvkWr",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -116,7 +139,9 @@
       "feedAddress": "2aa9p78uYzbpbc2iqXBGX1uqNijQnFhdBZ4QUu3ZXN2m",
       "optimizedFeedAddress": "3HNzzJYcUjXoPGyMsUHu9raBwwNTkQp2yQpeuamawTnr",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -124,7 +149,9 @@
       "feedAddress": "2uVYBtoiwE1sjB7w9ZarRRxx2mmNCbhE6sPfDqTi1GyK",
       "optimizedFeedAddress": "FGMZCPbxZ2piWxbMwp6WEGFtiW5NXAWQ8VEveWN73Ugk",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -132,7 +159,9 @@
       "feedAddress": "2AyoC6wqdPzz8Y29zY8s79j3PBx47cJYBpXDy8au26kT",
       "optimizedFeedAddress": "5fFa3JU8tmyurqrrEM8xpdPZdaQ1frLM9ieznNpPwpW6",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -140,7 +169,9 @@
       "feedAddress": "mDQcd51c5Y5fcbMfPp2sxipcE28knvdZhjCnUHEqrsM",
       "optimizedFeedAddress": "GRo82K23orNDXfdNTY6h7bLVN7mo81tsRRM3K8WN7yUG",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -148,7 +179,9 @@
       "feedAddress": "DzPo9qoQgkzrnFyqxErvrJLsSzUXrBEy3v4AKcDNkAfx",
       "optimizedFeedAddress": "6wg1oR2dYyHd1XsDEwpG2fEZ9PbYJkf5gnLcRsLuKnBt",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -156,7 +189,9 @@
       "feedAddress": "Hb8zFcXqQ2GKGcodhr5Up6KeALzRxEUtL5p6iYNMrjkg",
       "optimizedFeedAddress": "2ovHrjsBRKVkht45qieqsefZrfrpxgzAmv4ZjsqJkdEU",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -164,7 +199,9 @@
       "feedAddress": "7YWVsXg4Tk66SNYMkw9LN3p1457hkQiodwH5fF3ofaZv",
       "optimizedFeedAddress": "9h4rQNVRhNcs1STfbGiHpt81DPBP2KARBf6hjhgzKT11",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -172,7 +209,9 @@
       "feedAddress": "6YkXAM6W2EQa3ijQMm6XdfFyaovHJYZ6FwCruNY9Hf3c",
       "optimizedFeedAddress": "5oQDCyvikYyTjMS9Buf6Qw5CMA9dw4rs5h84Aq9wpWQc",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -180,7 +219,9 @@
       "feedAddress": "7oAeNhb1ZB1v5VFxLYL6NRNUJqFWiffdRc8kC5eEGTGg",
       "optimizedFeedAddress": "C2GXZT21UUm6G3J4N26h6d3tpgfUhh6ok5aNi24K88Wu",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -188,7 +229,9 @@
       "feedAddress": "FZzT7QD1Su7JcvBkzzAG5QaS3jo6orZZPp6tWEQC5Ybh",
       "optimizedFeedAddress": "27aW4gNDuq2WfwDqaTHYDtCesqWcLFoZ5LQNTUytyR7H",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -196,7 +239,9 @@
       "feedAddress": "BAoygKcKN7wk8yKzLD6sxzUQUqLvhBV1rjMA4UJqfZuH",
       "optimizedFeedAddress": "BtptXdTAQyfXMDCyFhv1peTcHFSFXRgAQusnerDTBqUU",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -204,7 +249,9 @@
       "feedAddress": "BPVRQxZ3s9pZmUGSjpZ6KAhR6PdnjPm7uccdqf66MqVg",
       "optimizedFeedAddress": "EDagMHo9tc2EQRskZS71PbyfzehBnrmzw5X9ZuBJaxc1",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -212,7 +259,9 @@
       "feedAddress": "GZkgHt5qaJhS3QY5CgbAhgV4Z7pTsXS8ujMxuezjHxdf",
       "optimizedFeedAddress": "4MeDYn2NnJd8LbrgF4GxYxespc5PPJhhwUvGfbKevLc2",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -221,7 +270,9 @@
       "optimizedFeedAddress": "5niwkRUbU5CcLZ9nASNZG3XWiFWw7QzCT2MXts6smVjn",
       "splAddress": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -230,7 +281,9 @@
       "optimizedFeedAddress": "3e57oVNdoR5APFThnDKpSv8zFdZEsZNUjMCmYEGdAHkb",
       "splAddress": "8HGyAAB1yoM1ttS7pXjHMa3dukTFGQggnFFH3hJZgzQh",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -240,7 +293,8 @@
       "splAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "description": "",
       "tags": [
-        "stablecoin"
+        "stablecoin",
+        "usd-pair"
       ]
     },
     {
@@ -249,7 +303,9 @@
       "feedAddress": "rxcwjrYfLnH8KPBViaS1EL3kFKUZBK8FGpkFmzxDf4T",
       "optimizedFeedAddress": "DaLVeCU2iz53Z8WsjpB1bLbWacerPGYRK4UrneGpDemE",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -257,7 +313,9 @@
       "feedAddress": "78WGMGmLDYB24i1mppzs74GtZ9BXc9Mu3kFCUbEpahcG",
       "optimizedFeedAddress": "HWLWWcQJep8cTCjtpiUq7sMNaV9ettE9LrcUB39N8v2S",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -265,7 +323,9 @@
       "feedAddress": "3pMsD3Gqi8ZW51zEYMxanT8GfPWs98okT1CFSFmPn6mt",
       "optimizedFeedAddress": "7UDx1i2vVtW38UmgX95kAMg4CFMdvUoSsvGHChB98ges",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -273,7 +333,9 @@
       "feedAddress": "Fe3WmbVNuPYYaW2MEpFiPE1tJXw6NXssTfRd9XStNUNS",
       "optimizedFeedAddress": "3awDYQ4giUY5kmQb7QEfEcjcQMD5jLASct4Ppy5Ar3aK",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -282,7 +344,9 @@
       "optimizedFeedAddress": "AS2yMpqPY16tY5hQmpdkomaqSckMuDvR6K9P9tk9FA4d",
       "splAddress": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -291,7 +355,9 @@
       "optimizedFeedAddress": "AyCed72RuLccyeJVsyu443pfLdJmVbZKFza5ahBBzGCE",
       "splAddress": "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -300,7 +366,9 @@
       "optimizedFeedAddress": "89svWJ1uM5nKgJ9xT5TTVcuvJ1SKXiF5fAzKVGZKa6zt",
       "splAddress": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -310,7 +378,8 @@
       "splAddress": "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS",
       "description": "",
       "tags": [
-        "stablecoin"
+        "stablecoin",
+        "usd-pair"
       ]
     },
     {
@@ -320,7 +389,9 @@
       "optimizedFeedAddress": "49cnp1ejyvQi3CJw3kKXNCDGnNbWDuZd3UG3Y2zGvQkX",
       "splAddress": "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -329,7 +400,9 @@
       "optimizedFeedAddress": "GzsGsb8uxk53a1vQNSXoNfyB2YZtnxFbGfKTUqcs4r33",
       "splAddress": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -338,7 +411,9 @@
       "optimizedFeedAddress": "32K4uqcU17n8kmxtaMyNQ4WDYv3Dr3ChFapsifDGeacL",
       "splAddress": "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -347,7 +422,9 @@
       "optimizedFeedAddress": "F4syxcHNx7rV8ANn5DnXgtvvAaM5odXCm5sDYsAQiVHW",
       "splAddress": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -356,7 +433,9 @@
       "optimizedFeedAddress": "HTvL594QhRLTfqCo6Ysz2KZUAfEu9jr7YzxqcpmjMAUY",
       "splAddress": "PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -365,7 +444,9 @@
       "optimizedFeedAddress": "JpdcetYMHN1mrv3E2NFxED65EhtgAgZZxjFZ5xku7Wx",
       "splAddress": "4wjPQJ6PrkC4dHhYghwJzGBVP78DkBzA2U3kHoFNBuhj",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -374,7 +455,9 @@
       "optimizedFeedAddress": "9noUZQrJacM8gPtGhKexxu3yJN5c9fnCZS82p4KSkb3N",
       "splAddress": "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,
@@ -383,7 +466,9 @@
       "optimizedFeedAddress": "6oeKZy8ERLraPmQ7uG7eBQZ8kzu7QHrGKzBKRmGFW85S",
       "splAddress": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 103,
@@ -391,7 +476,9 @@
       "feedAddress": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng",
       "optimizedFeedAddress": "9csVZ3xrp1MtisJMUchkWQJbYtuwbzsDqf9gYpCdyQ5C",
       "description": "",
-      "tags": []
+      "tags": [
+        "usd-pair"
+      ]
     },
     {
       "chainId": 101,

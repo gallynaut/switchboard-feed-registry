@@ -1,18 +1,16 @@
-# @solana/spl-token-registry
+# @switchboard-xyz/feed-registry
 
-[![npm](https://img.shields.io/npm/v/@solana/spl-token-registry)](https://unpkg.com/@solana/spl-token-registry@latest/) [![GitHub license](https://img.shields.io/badge/license-APACHE-blue.svg)](https://github.com/solana-labs/token-list/blob/b3fa86b3fdd9c817139e38641d46c5a892542a52/LICENSE)
-
-Solana Token Registry is a package that allows application to query for list of tokens.
-The JSON schema for the tokens includes: chainId, address, name, decimals, symbol, logoURI (optional), tags (optional), and custom extensions metadata.
+Switchboard Feed Registry is a package that allows application to query for list of tokens.
+The JSON schema for the feed includes: chainId, name, feedAddress, optimizedFeedAddress, splAddress, tags (optional).
 
 ## Installation
 
 ```bash
-npm install @solana/spl-token-registry
+npm install @switchboard-xyz/feed-registry
 ```
 
 ```bash
-yarn add @solana/spl-token-registry
+yarn add @switchboard-xyz/feed-registry
 ```
 
 ## Examples
@@ -20,13 +18,13 @@ yarn add @solana/spl-token-registry
 ### Query available tokens
 
 ```typescript
-new FeedListProvider().resolve().then((tokens) => {
-  const tokenList = tokens.filterByClusterSlug('mainnet-beta').getList();
-  console.log(tokenList);
+new FeedListProvider().resolve().then((feeds) => {
+  const feedList = feeds.filterByClusterSlug('mainnet-beta').getList();
+  console.log(feedList);
 });
 ```
 
-### Render icon for token in React
+### Render data for feed in React
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
@@ -57,8 +55,6 @@ export const Icon = (props: { mint: string }) => {
 ## Adding new token
 
 Submit PR with changes to JSON file `src/feeds/feedlist.json`
-
-Please follow the Uniswap Token List specification found here: https://github.com/Uniswap/token-lists
 
 # Disclaimer
 

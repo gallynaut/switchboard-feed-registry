@@ -1,5 +1,5 @@
 {
-  "name": "@switchboardxyz/feed-registry",
+  "name": "@switchboard-xyz/feed-registry",
   "version": "0.1.0",
   "description": "Switchboard Feed Registry",
   "main": "dist/main/index.js",
