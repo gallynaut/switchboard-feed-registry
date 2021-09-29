@@ -115,6 +115,12 @@ export class FeedListContainer {
     );
   };
 
+  filterByNameStartsWith = (query: string) => {
+    return new FeedListContainer(
+      this.feedList.filter((item) => item.name.startsWith(query))
+    );
+  };
+
   excludeByChainId = (chainId: number | ENV) => {
     return new FeedListContainer(
       this.feedList.filter((item) => item.chainId !== chainId)
