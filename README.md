@@ -19,7 +19,10 @@ yarn add @switchboard-xyz/feed-registry
 
 ```typescript
 new FeedListProvider().resolve().then((feeds) => {
-  const feedList = feeds.filterByClusterSlug('mainnet-beta').getList();
+  const feedList = feeds
+    .filterByClusterSlug('mainnet-beta')
+    .filterByTag('usd-pair')
+    .getList();
   console.log(feedList);
 });
 ```
@@ -28,27 +31,31 @@ new FeedListProvider().resolve().then((feeds) => {
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
-import { FeedListProvider, TokenInfo } from '@solana/spl-token-registry';
+import { FeedListProvider, FeedInfo } from '@switchboard-xyz/feed-registry';
 
 
-export const Icon = (props: { mint: string }) => {
-  const [tokenMap, setTokenMap] = useState<Map<string, TokenInfo>>(new Map());
+export const FeedCard = (props: { mint: string }) => {
+  const [feedMap, setFeedMap] = useState<Map<string, FeedInfo>>(new Map());
 
   useEffect(() => {
     new FeedListProvider().resolve().then(tokens => {
-      const tokenList = tokens.filterByChainId(ENV.MainnetBeta).getList();
+      const feedList = tokens.filterByChainId(ENV.MainnetBeta).filterByTag('usd-pair').getList();
 
-      setTokenMap(tokenList.reduce((map, item) => {
-        map.set(item.address, item);
+      setFeedMap(feedList.reduce((map, item) => {
+        map.set(item.name, item);
         return map;
       },new Map()));
     });
-  }, [setTokenMap]);
+  }, [setFeedMap]);
 
-  const token = tokenMap.get(props.mint);
-  if (!token || !token.logoURI) return null;
+  const feed = feedMap.get(props.mint);
+  if (!feed) return null;
 
-  return (<img src={token.logoURI} />);
+  return (
+    <div>
+      <h1>{feed.name}</h1>
+    </div>
+  );
 
 ```
 
