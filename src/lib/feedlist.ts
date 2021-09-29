@@ -103,6 +103,21 @@ export class FeedListContainer {
     );
   };
 
+  filterByUsdBasePair = () => {
+    return new FeedListContainer(
+      this.feedList.filter(
+        (item) =>
+          item.basePair?.type === 'Fiat' && item.basePair?.symbol === 'USD'
+      )
+    );
+  };
+
+  filterByQuoteSymbol = (querySymbol: string) => {
+    return new FeedListContainer(
+      this.feedList.filter((item) => item.quotePair?.symbol === querySymbol)
+    );
+  };
+
   filterByChainId = (chainId: number | ENV) => {
     return new FeedListContainer(
       this.feedList.filter((item) => item.chainId === chainId)

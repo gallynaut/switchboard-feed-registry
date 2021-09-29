@@ -14,6 +14,16 @@ test('Feed list is filterable by a tag', async (t) => {
   t.false(list.some((item) => item.name === 'BTC/USD'));
 });
 
+test('Feed list is filterable by a quote symbol', async (t) => {
+  const list = (await new FeedListProvider().resolve(Strategy.Static))
+    .filterByChainId(ENV.MainnetBeta)
+    .filterByQuoteSymbol('SOL')
+    .getList();
+
+  t.true(list.some((item) => item.name === 'SOL/USD'));
+  t.false(list.some((item) => item.name.includes('BTC')));
+});
+
 test('Feed list can exclude by a tag', async (t) => {
   const list = (await new FeedListProvider().resolve(Strategy.Static))
     .filterByChainId(ENV.MainnetBeta)
