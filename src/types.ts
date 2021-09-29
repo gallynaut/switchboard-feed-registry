@@ -19,5 +19,4 @@ export interface FeedInfo {
   readonly name: string;
   readonly description?: string;
   readonly tags?: string[];
-  readonly jobs?: string[];
 }

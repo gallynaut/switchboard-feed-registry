@@ -34,20 +34,6 @@
       "feedAddress": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng",
       "optimizedFeedAddress": "3HtmwdXJPAdMZ73fTGeCFgbDQZGLZWpmsm3JAB5quGJN",
       "description": "",
-      "jobs": [
-        "ftx.com",
-        "ws-feed.pro.coinbase.com",
-        "www.bitstamp.net",
-        "ftx.us",
-        "www.binance.us",
-        "api-pub.bitfinex.com",
-        "api.bittrex.com",
-        "ws.okex.com",
-        "api.huobi.pro",
-        "www.mxc.com",
-        "api.kraken.com",
-        "www.binance.com"
-      ],
       "tags": []
     },
     {
@@ -56,20 +42,6 @@
       "feedAddress": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz",
       "optimizedFeedAddress": "5AmfBzMcqgr9eacyiSVsJZt7EXtNxrMNDs1wBuEQphcT",
       "description": "",
-      "jobs": [
-        "ftx.com",
-        "ws-feed.pro.coinbase.com",
-        "www.bitstamp.net",
-        "ftx.us",
-        "www.binance.us",
-        "api-pub.bitfinex.com",
-        "api.bittrex.com",
-        "ws.okex.com",
-        "api.huobi.pro",
-        "www.mxc.com",
-        "api.kraken.com",
-        "www.binance.com"
-      ],
       "tags": []
     },
     {
@@ -78,16 +50,6 @@
       "feedAddress": "AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL",
       "optimizedFeedAddress": "DfjRzSdj5wm1kHfijm3dQsoZB7kENWCGGWzwGpGesiYm",
       "description": "",
-      "jobs": [
-        "ftx.com",
-        "ftx.us",
-        "www.binance.us",
-        "api-pub.bitfinex.com",
-        "ws.okex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "www.mxc.com"
-      ],
       "tags": []
     },
     {
@@ -96,12 +58,6 @@
       "feedAddress": "5mp8kbkTYwWWCsKSte8rURjTuyinsqBpJ9xAQsewPDD",
       "optimizedFeedAddress": "Eh5Vwr2ZbpXe2TUPXWXLnEeFDBXeS9xHrMe1EJwpLm9F",
       "description": "",
-      "jobs": [
-        "api.kraken.com",
-        "ftx.us",
-        "ftx.com",
-        "www.binance.us"
-      ],
       "tags": [
         "stablecoin"
       ]
@@ -112,11 +68,6 @@
       "feedAddress": "DZiiWo7kdmgyKKGAyESc7j5t7CQFqVLnHfB5RVegHwse",
       "optimizedFeedAddress": "AMWuQRw1nntNFd2PSSiVuUmLY2xGyvsPNoJCmfoGQkkd",
       "description": "",
-      "jobs": [
-        "www.binance.us",
-        "ftx.com",
-        "www.binance.com"
-      ],
       "tags": []
     },
     {
@@ -125,16 +76,6 @@
       "feedAddress": "AUbsuZNuKJnxkRLWbsco7uBhVQo5T2c9bBF1nfbwuEZ5",
       "optimizedFeedAddress": "7YyzQ5QQZYMmNab5yU4ZsU4nyrk5N5RkZkcZMedx8Jo7",
       "description": "",
-      "jobs": [
-        "ws-feed.pro.coinbase.com",
-        "api.kraken.com",
-        "api.bittrex.com",
-        "www.binance.us",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -143,17 +84,6 @@
       "feedAddress": "FK9MxAy4ryBs6hzQC3ei8KkfgEp9DMSKtckmoLqsYwU4",
       "optimizedFeedAddress": "5jpKHLmJDBFbAZALZ6FgMwsRXqJRAc7Vb8EcN8tmQS3c",
       "description": "",
-      "jobs": [
-        "api.kraken.com",
-        "api.bittrex.com",
-        "www.binance.us",
-        "ftx.us",
-        "ftx.com",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -162,13 +92,6 @@
       "feedAddress": "AxD1uUspZP53cUVbzGApjwDQqEDQoAtj6Bocy8JJBnDb",
       "optimizedFeedAddress": "HbaWGrMXQ49Szwri3rK4u59AB91jydJvvDATygf1Z3DG",
       "description": "",
-      "jobs": [
-        "api.kraken.com",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -177,19 +100,6 @@
       "feedAddress": "nrpjSku5TXWSV9gqNYnuPdT2GFZA3npe95x5U33QiWs",
       "optimizedFeedAddress": "GNkiUYpnDYo1NeGeGaTovG1CpxWTtMGTu6uKQTH4H6pp",
       "description": "",
-      "jobs": [
-        "ftx.com",
-        "api.kraken.com",
-        "www.bitstamp.net",
-        "ftx.us",
-        "www.binance.us",
-        "api.bittrex.com",
-        "ws.okex.com",
-        "ws-feed.pro.coinbase.com",
-        "api.huobi.pro",
-        "www.mxc.com",
-        "www.binance.com"
-      ],
       "tags": []
     },
     {
@@ -198,20 +108,6 @@
       "feedAddress": "DB3xhMmZPz3WMo8zbLE7dFukcDXqsEbNYUga4Yr1zHBq",
       "optimizedFeedAddress": "3sWdLzjNdkxfcSPgGdUs5tLbRYryS3EnW8PXiN6cvkWr",
       "description": "",
-      "jobs": [
-        "ftx.com",
-        "ws-feed.pro.coinbase.com",
-        "api.kraken.com",
-        "www.bitstamp.net",
-        "ftx.us",
-        "www.binance.us",
-        "api-pub.bitfinex.com",
-        "api.bittrex.com",
-        "ws.okex.com",
-        "api.huobi.pro",
-        "www.mxc.com",
-        "www.binance.com"
-      ],
       "tags": []
     },
     {
@@ -220,15 +116,6 @@
       "feedAddress": "2aa9p78uYzbpbc2iqXBGX1uqNijQnFhdBZ4QUu3ZXN2m",
       "optimizedFeedAddress": "3HNzzJYcUjXoPGyMsUHu9raBwwNTkQp2yQpeuamawTnr",
       "description": "",
-      "jobs": [
-        "api.kraken.com",
-        "www.binance.us",
-        "api-pub.bitfinex.com",
-        "ws-feed.pro.coinbase.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -237,12 +124,6 @@
       "feedAddress": "2uVYBtoiwE1sjB7w9ZarRRxx2mmNCbhE6sPfDqTi1GyK",
       "optimizedFeedAddress": "FGMZCPbxZ2piWxbMwp6WEGFtiW5NXAWQ8VEveWN73Ugk",
       "description": "",
-      "jobs": [
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -251,14 +132,6 @@
       "feedAddress": "2AyoC6wqdPzz8Y29zY8s79j3PBx47cJYBpXDy8au26kT",
       "optimizedFeedAddress": "5fFa3JU8tmyurqrrEM8xpdPZdaQ1frLM9ieznNpPwpW6",
       "description": "",
-      "jobs": [
-        "api.kraken.com",
-        "www.binance.us",
-        "ws-feed.pro.coinbase.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -267,14 +140,6 @@
       "feedAddress": "mDQcd51c5Y5fcbMfPp2sxipcE28knvdZhjCnUHEqrsM",
       "optimizedFeedAddress": "GRo82K23orNDXfdNTY6h7bLVN7mo81tsRRM3K8WN7yUG",
       "description": "",
-      "jobs": [
-        "api.kraken.com",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com",
-        "www.mxc.com"
-      ],
       "tags": []
     },
     {
@@ -283,16 +148,6 @@
       "feedAddress": "DzPo9qoQgkzrnFyqxErvrJLsSzUXrBEy3v4AKcDNkAfx",
       "optimizedFeedAddress": "6wg1oR2dYyHd1XsDEwpG2fEZ9PbYJkf5gnLcRsLuKnBt",
       "description": "",
-      "jobs": [
-        "ws-feed.pro.coinbase.com",
-        "www.binance.us",
-        "api.kraken.com",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com",
-        "www.mxc.com"
-      ],
       "tags": []
     },
     {
@@ -301,12 +156,6 @@
       "feedAddress": "Hb8zFcXqQ2GKGcodhr5Up6KeALzRxEUtL5p6iYNMrjkg",
       "optimizedFeedAddress": "2ovHrjsBRKVkht45qieqsefZrfrpxgzAmv4ZjsqJkdEU",
       "description": "",
-      "jobs": [
-        "ws-feed.pro.coinbase.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -315,14 +164,6 @@
       "feedAddress": "7YWVsXg4Tk66SNYMkw9LN3p1457hkQiodwH5fF3ofaZv",
       "optimizedFeedAddress": "9h4rQNVRhNcs1STfbGiHpt81DPBP2KARBf6hjhgzKT11",
       "description": "",
-      "jobs": [
-        "ws-feed.pro.coinbase.com",
-        "api.kraken.com",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -331,14 +172,6 @@
       "feedAddress": "6YkXAM6W2EQa3ijQMm6XdfFyaovHJYZ6FwCruNY9Hf3c",
       "optimizedFeedAddress": "5oQDCyvikYyTjMS9Buf6Qw5CMA9dw4rs5h84Aq9wpWQc",
       "description": "",
-      "jobs": [
-        "api.kraken.com",
-        "www.binance.us",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -347,12 +180,6 @@
       "feedAddress": "7oAeNhb1ZB1v5VFxLYL6NRNUJqFWiffdRc8kC5eEGTGg",
       "optimizedFeedAddress": "C2GXZT21UUm6G3J4N26h6d3tpgfUhh6ok5aNi24K88Wu",
       "description": "",
-      "jobs": [
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -361,16 +188,6 @@
       "feedAddress": "FZzT7QD1Su7JcvBkzzAG5QaS3jo6orZZPp6tWEQC5Ybh",
       "optimizedFeedAddress": "27aW4gNDuq2WfwDqaTHYDtCesqWcLFoZ5LQNTUytyR7H",
       "description": "",
-      "jobs": [
-        "api.kraken.com",
-        "api.bittrex.com",
-        "ftx.us",
-        "ftx.com",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -378,13 +195,7 @@
       "name": "SRM/USD",
       "feedAddress": "BAoygKcKN7wk8yKzLD6sxzUQUqLvhBV1rjMA4UJqfZuH",
       "optimizedFeedAddress": "BtptXdTAQyfXMDCyFhv1peTcHFSFXRgAQusnerDTBqUU",
-      "splAddress": "",
       "description": "",
-      "jobs": [
-        "ftx.com",
-        "www.binance.com",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -392,13 +203,7 @@
       "name": "AR/USD",
       "feedAddress": "BPVRQxZ3s9pZmUGSjpZ6KAhR6PdnjPm7uccdqf66MqVg",
       "optimizedFeedAddress": "EDagMHo9tc2EQRskZS71PbyfzehBnrmzw5X9ZuBJaxc1",
-      "splAddress": "",
       "description": "",
-      "jobs": [
-        "www.binance.com",
-        "api.huobi.pro",
-        "www.mxc.com"
-      ],
       "tags": []
     },
     {
@@ -407,14 +212,6 @@
       "feedAddress": "GZkgHt5qaJhS3QY5CgbAhgV4Z7pTsXS8ujMxuezjHxdf",
       "optimizedFeedAddress": "4MeDYn2NnJd8LbrgF4GxYxespc5PPJhhwUvGfbKevLc2",
       "description": "",
-      "jobs": [
-        "ws-feed.pro.coinbase.com",
-        "api.kraken.com",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -424,10 +221,6 @@
       "optimizedFeedAddress": "5niwkRUbU5CcLZ9nASNZG3XWiFWw7QzCT2MXts6smVjn",
       "splAddress": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6",
       "description": "",
-      "jobs": [
-        "ftx.com",
-        "api.gateio.ws"
-      ],
       "tags": []
     },
     {
@@ -437,9 +230,6 @@
       "optimizedFeedAddress": "3e57oVNdoR5APFThnDKpSv8zFdZEsZNUjMCmYEGdAHkb",
       "splAddress": "8HGyAAB1yoM1ttS7pXjHMa3dukTFGQggnFFH3hJZgzQh",
       "description": "",
-      "jobs": [
-        "ftx.com"
-      ],
       "tags": []
     },
     {
@@ -449,17 +239,6 @@
       "optimizedFeedAddress": "CEgW2DvUX1DfthyAMeQdkckJjuCFwnwSGW2PiMv6hDag",
       "splAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "description": "",
-      "jobs": [
-        "ws-feed.pro.coinbase.com",
-        "api.kraken.com",
-        "api.gateio.ws",
-        "www.bitstamp.net",
-        "api.bittrex.com",
-        "www.binance.us",
-        "www.binance.com",
-        "api.huobi.pro",
-        "www.mxc.com"
-      ],
       "tags": [
         "stablecoin"
       ]
@@ -469,18 +248,7 @@
       "name": "LINK/USD",
       "feedAddress": "rxcwjrYfLnH8KPBViaS1EL3kFKUZBK8FGpkFmzxDf4T",
       "optimizedFeedAddress": "DaLVeCU2iz53Z8WsjpB1bLbWacerPGYRK4UrneGpDemE",
-      "splAddress": "",
       "description": "",
-      "jobs": [
-        "ws-feed.pro.coinbase.com",
-        "api.kraken.com",
-        "www.binance.us",
-        "ftx.com",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -488,17 +256,7 @@
       "name": "GRT/USD",
       "feedAddress": "78WGMGmLDYB24i1mppzs74GtZ9BXc9Mu3kFCUbEpahcG",
       "optimizedFeedAddress": "HWLWWcQJep8cTCjtpiUq7sMNaV9ettE9LrcUB39N8v2S",
-      "splAddress": "",
       "description": "",
-      "jobs": [
-        "ws-feed.pro.coinbase.com",
-        "api.kraken.com",
-        "ftx.us",
-        "ftx.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -506,18 +264,7 @@
       "name": "YFI/USD",
       "feedAddress": "3pMsD3Gqi8ZW51zEYMxanT8GfPWs98okT1CFSFmPn6mt",
       "optimizedFeedAddress": "7UDx1i2vVtW38UmgX95kAMg4CFMdvUoSsvGHChB98ges",
-      "splAddress": "",
       "description": "",
-      "jobs": [
-        "ws-feed.pro.coinbase.com",
-        "api.kraken.com",
-        "ftx.us",
-        "ftx.com",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -525,18 +272,7 @@
       "name": "COMP/USD",
       "feedAddress": "Fe3WmbVNuPYYaW2MEpFiPE1tJXw6NXssTfRd9XStNUNS",
       "optimizedFeedAddress": "3awDYQ4giUY5kmQb7QEfEcjcQMD5jLASct4Ppy5Ar3aK",
-      "splAddress": "",
       "description": "",
-      "jobs": [
-        "ws-feed.pro.coinbase.com",
-        "api.kraken.com",
-        "www.binance.us",
-        "ftx.com",
-        "api-pub.bitfinex.com",
-        "www.binance.com",
-        "api.huobi.pro",
-        "ws.okex.com"
-      ],
       "tags": []
     },
     {
@@ -546,10 +282,6 @@
       "optimizedFeedAddress": "AS2yMpqPY16tY5hQmpdkomaqSckMuDvR6K9P9tk9FA4d",
       "splAddress": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R",
       "description": "",
-      "jobs": [
-        "ftx.com",
-        "www.binance.com"
-      ],
       "tags": []
     },
     {
@@ -559,9 +291,6 @@
       "optimizedFeedAddress": "AyCed72RuLccyeJVsyu443pfLdJmVbZKFza5ahBBzGCE",
       "splAddress": "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT",
       "description": "",
-      "jobs": [
-        "ftx.com"
-      ],
       "tags": []
     },
     {
@@ -571,10 +300,6 @@
       "optimizedFeedAddress": "89svWJ1uM5nKgJ9xT5TTVcuvJ1SKXiF5fAzKVGZKa6zt",
       "splAddress": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K",
       "description": "",
-      "jobs": [
-        "ftx.com",
-        "api.gateio.ws"
-      ],
       "tags": []
     },
     {
@@ -584,7 +309,6 @@
       "optimizedFeedAddress": "6RpHQ4cWo3PfZmh2cPiuiKLdbNS9v8AjdFeYDxsJ78Mn",
       "splAddress": "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS",
       "description": "",
-      "jobs": [],
       "tags": [
         "stablecoin"
       ]
@@ -596,9 +320,6 @@
       "optimizedFeedAddress": "49cnp1ejyvQi3CJw3kKXNCDGnNbWDuZd3UG3Y2zGvQkX",
       "splAddress": "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac",
       "description": "",
-      "jobs": [
-        "ftx.com"
-      ],
       "tags": []
     },
     {
@@ -608,10 +329,6 @@
       "optimizedFeedAddress": "GzsGsb8uxk53a1vQNSXoNfyB2YZtnxFbGfKTUqcs4r33",
       "splAddress": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE",
       "description": "",
-      "jobs": [
-        "api.orca.so",
-        "www.mexc.com"
-      ],
       "tags": []
     },
     {
@@ -621,9 +338,6 @@
       "optimizedFeedAddress": "32K4uqcU17n8kmxtaMyNQ4WDYv3Dr3ChFapsifDGeacL",
       "splAddress": "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1",
       "description": "",
-      "jobs": [
-        "api.raydium.io"
-      ],
       "tags": []
     },
     {
@@ -633,9 +347,6 @@
       "optimizedFeedAddress": "F4syxcHNx7rV8ANn5DnXgtvvAaM5odXCm5sDYsAQiVHW",
       "splAddress": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
       "description": "",
-      "jobs": [
-        "api.raydium.io"
-      ],
       "tags": []
     },
     {
@@ -645,9 +356,6 @@
       "optimizedFeedAddress": "HTvL594QhRLTfqCo6Ysz2KZUAfEu9jr7YzxqcpmjMAUY",
       "splAddress": "PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y",
       "description": "",
-      "jobs": [
-        "api.raydium.io"
-      ],
       "tags": []
     },
     {
@@ -657,10 +365,6 @@
       "optimizedFeedAddress": "JpdcetYMHN1mrv3E2NFxED65EhtgAgZZxjFZ5xku7Wx",
       "splAddress": "4wjPQJ6PrkC4dHhYghwJzGBVP78DkBzA2U3kHoFNBuhj",
       "description": "",
-      "jobs": [
-        "api.orca.so",
-        "api.raydium.io"
-      ],
       "tags": []
     },
     {
@@ -670,9 +374,6 @@
       "optimizedFeedAddress": "9noUZQrJacM8gPtGhKexxu3yJN5c9fnCZS82p4KSkb3N",
       "splAddress": "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj",
       "description": "",
-      "jobs": [
-        "api.raydium.io"
-      ],
       "tags": []
     },
     {
@@ -682,9 +383,6 @@
       "optimizedFeedAddress": "6oeKZy8ERLraPmQ7uG7eBQZ8kzu7QHrGKzBKRmGFW85S",
       "splAddress": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm",
       "description": "",
-      "jobs": [
-        "api.orca.so"
-      ],
       "tags": []
     },
     {
@@ -693,20 +391,6 @@
       "feedAddress": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng",
       "optimizedFeedAddress": "9csVZ3xrp1MtisJMUchkWQJbYtuwbzsDqf9gYpCdyQ5C",
       "description": "",
-      "jobs": [
-        "www.bitstamp.net",
-        "ftx.us",
-        "api-pub.bitfinex.com",
-        "api.bittrex.com",
-        "ftx.com",
-        "ws-feed.pro.coinbase.com",
-        "www.binance.us",
-        "ws.okex.com",
-        "api.huobi.pro",
-        "www.mxc.com",
-        "api.kraken.com",
-        "www.binance.com"
-      ],
       "tags": []
     },
     {
@@ -715,9 +399,6 @@
       "feedAddress": "6nkKqyx8fU1MyUHqY6UBMc17ib4U6BzWSeyP24YBFoWN",
       "optimizedFeedAddress": "57HtzNrNGP7LtzsdRbmFqj5jgHUKL2HR2wnrPSrd4Qyu",
       "description": "",
-      "jobs": [
-        "app.pinkswantrading.com"
-      ],
       "tags": [
         "volatility"
       ]
@@ -728,9 +409,6 @@
       "feedAddress": "CX1PvW4qUDy4PPq8egnMVCbVJt8TcPCt7WCZuwmvCfo7",
       "optimizedFeedAddress": "CeTDZpMSTkWDf8sWWHzpvZRRLR32BWcz7WBqjj8YLu6h",
       "description": "",
-      "jobs": [
-        "app.pinkswantrading.com"
-      ],
       "tags": [
         "volatility"
       ]
@@ -741,9 +419,6 @@
       "feedAddress": "5UnQ2tfZxgy6LAUEAjCoz9PTFVLfBY2MHHRCDjtqehpL",
       "optimizedFeedAddress": "7eVviZHFQ5XWCzDP5yJeAECR2h6BhCf5jVM5H8b7vqtH",
       "description": "",
-      "jobs": [
-        "app.pinkswantrading.com"
-      ],
       "tags": [
         "volatility"
       ]
@@ -754,9 +429,6 @@
       "feedAddress": "4wRticsijcNQ1ECT2GmNZmdWBxNeABMX8o1D1nBRJUjB",
       "optimizedFeedAddress": "8yszfCqD4XU3JeHaF9Mb7RzrST2LALST9jPBXrwi6Z3W",
       "description": "",
-      "jobs": [
-        "app.pinkswantrading.com"
-      ],
       "tags": [
         "volatility"
       ]
@@ -767,9 +439,6 @@
       "feedAddress": "4AGPMUEfBCSNqVd4Y6veHAep6VPtrkMa89rBhPqMYegz",
       "optimizedFeedAddress": "2AXWsmzs3h4E3zf14zbVBdAho15TG29Vkq9xTg8jhH2v",
       "description": "",
-      "jobs": [
-        "app.pinkswantrading.com"
-      ],
       "tags": [
         "volatility"
       ]
@@ -780,9 +449,6 @@
       "feedAddress": "2vhpoXkmoc1oGb6tP7ShW42tzcHmNccLnMkQL5LVNmPB",
       "optimizedFeedAddress": "3eXzhGxpatSFg5vaojjVa5Rp4XiT36KuusfrVeaVMDn9",
       "description": "",
-      "jobs": [
-        "app.pinkswantrading.com"
-      ],
       "tags": [
         "volatility"
       ]
@@ -793,7 +459,6 @@
       "feedAddress": "71Udyz54Wu2fFfVDeqmQ7B9WdaBLWqNcXpRLGGxnWeZc",
       "optimizedFeedAddress": "3ScKEX7FPuK6x3qMBDqMbDaTBtXNou5mTYjisEYKC97b",
       "description": "",
-      "jobs": [],
       "tags": [
         "lp-token"
       ]
@@ -804,7 +469,6 @@
       "feedAddress": "78edz675aRmFTAJ1G3j3oJdA51hnLvWvtL8cQeB8HpRR",
       "optimizedFeedAddress": "3GVgeZLdny4T7NGAveeF9BrPbnZbQ3wst4kQYJNabcgL",
       "description": "",
-      "jobs": [],
       "tags": [
         "lp-token"
       ]
@@ -815,7 +479,6 @@
       "feedAddress": "4bkMJsmwrKH3VFw9QW3LH8rXfNEUvFLbp3dAu8wMyT5V",
       "optimizedFeedAddress": "GqFfLd43ZqtidGoAS4y2FMqk1C8JoqVCgDcA6QvaohB7",
       "description": "",
-      "jobs": [],
       "tags": [
         "lp-token"
       ]
@@ -826,7 +489,6 @@
       "feedAddress": "F4HCHddHye972a7rChEACRf3kS9ZxNRnTKqznyL477cf",
       "optimizedFeedAddress": "963vYeQMGhcSwv4VRFgoJZvKv6YDURuwzxBzN7SXJpsS",
       "description": "",
-      "jobs": [],
       "tags": [
         "lp-token"
       ]
@@ -837,10 +499,6 @@
       "feedAddress": "E9bvEBW2pjBcNCRFPUg9RpxPNWiYjYVXGcT2j1iDhzNS",
       "optimizedFeedAddress": "Eaq61bgACon4kwSt5scHdiQnnw2P7wGA3HF5kVrN4uXB",
       "description": "",
-      "jobs": [
-        "solanalysis-graphql-dot-feliz-finance.uc.r.appspot.com",
-        "jmccmlyu33.medianetwork.cloud"
-      ],
       "tags": [
         "nft"
       ]
@@ -851,10 +509,6 @@
       "feedAddress": "5Bej21h56zHkBEvN81nRve7Ny6So61RB5WjAYUQcgxDV",
       "optimizedFeedAddress": "Cmjw7mVW5Er1YFAjPKiFFYcYj9CaJseC2X2iSwj3B6sp",
       "description": "",
-      "jobs": [
-        "solanalysis-graphql-dot-feliz-finance.uc.r.appspot.com",
-        "market.solanamonkey.business"
-      ],
       "tags": [
         "nft"
       ]
@@ -865,9 +519,6 @@
       "feedAddress": "FCAVucGDvvZ3MayyBdFRY9uM7ypXmHnNPsaGBWJfWXFU",
       "optimizedFeedAddress": "Gdz8AqXgsK8ekJ2uXW4RUhTQqUGQE1NZJMRaax3wZHM1",
       "description": "",
-      "jobs": [
-        "site.api.espn.com"
-      ],
       "tags": [
         "sports"
       ]
@@ -878,9 +529,6 @@
       "feedAddress": "Ge5mBBV2WwuCgFySds5q6VjKhtaqi3FtdS6JrLrdqgmf",
       "optimizedFeedAddress": "CyZSqNx5YACXx1B5BQ1XJ2wszoFDEpKgthAZP5tSfuhu",
       "description": "",
-      "jobs": [
-        "site.api.espn.com"
-      ],
       "tags": [
         "sports"
       ]

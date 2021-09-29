@@ -103,12 +103,6 @@ export class FeedListContainer {
     );
   };
 
-  filterByJob = (job: string) => {
-    return new FeedListContainer(
-      this.feedList.filter((item) => (item.jobs || []).includes(job))
-    );
-  };
-
   filterByChainId = (chainId: number | ENV) => {
     return new FeedListContainer(
       this.feedList.filter((item) => item.chainId === chainId)
