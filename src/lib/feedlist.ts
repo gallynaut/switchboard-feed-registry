@@ -18,7 +18,7 @@ export const CLUSTER_SLUGS: { [id: string]: ENV } = {
 
 export class GitHubFeedListResolutionStrategy {
   repositories = [
-    'https://raw.githubusercontent.com/switchboardxyz/feed-list/main/src/feeds/feedlist.json',
+    'https://raw.githubusercontent.com/gallynaut/switchboard-feed-registry/main/src/feeds/feedlist.json',
   ];
 
   resolve = () => {
@@ -28,7 +28,7 @@ export class GitHubFeedListResolutionStrategy {
 
 export class CDNFeedListResolutionStrategy {
   repositories = [
-    'https://cdn.jsdelivr.net/gh/switchboardxyz/feed-list@main/src/feeds/feedlist.json',
+    'https://cdn.jsdelivr.net/gh/gallynaut/switchboard-feed-registry@main/src/feeds/feedlist.json',
   ];
 
   resolve = () => {
@@ -45,7 +45,7 @@ const queryJsonFiles = async (files: string[]) => {
         return json;
       } catch {
         console.info(
-          `@switchboardxyz/feed-registry: falling back to static repository.`
+          `@gallynaut/switchboard-feed-registry: falling back to static repository.`
         );
         return feedlist;
       }
