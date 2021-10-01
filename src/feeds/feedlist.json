@@ -48,9 +48,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -68,9 +66,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -88,9 +84,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -108,10 +102,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair",
-        "stablecoin"
-      ]
+      "tags": ["usd-pair", "stablecoin"]
     },
     {
       "chainId": 101,
@@ -129,9 +120,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -149,9 +138,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -169,9 +156,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -189,9 +174,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -209,9 +192,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -229,9 +210,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -249,9 +228,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -269,9 +246,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -289,9 +264,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -309,9 +282,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -329,9 +300,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -349,9 +318,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -369,9 +336,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -389,9 +354,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -409,9 +372,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -429,9 +390,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -450,9 +409,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -470,9 +427,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -490,9 +445,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -511,9 +464,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -532,9 +483,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -553,10 +502,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "stablecoin",
-        "usd-pair"
-      ]
+      "tags": ["stablecoin", "usd-pair"]
     },
     {
       "chainId": 101,
@@ -574,9 +520,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -594,9 +538,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -614,9 +556,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -634,9 +574,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -655,9 +593,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -676,9 +612,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -697,9 +631,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -718,10 +650,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "stablecoin",
-        "usd-pair"
-      ]
+      "tags": ["stablecoin", "usd-pair"]
     },
     {
       "chainId": 101,
@@ -740,9 +669,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -761,9 +688,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -782,9 +707,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -803,9 +726,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -824,9 +745,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -845,9 +764,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -866,9 +783,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -887,9 +802,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 103,
@@ -907,9 +820,7 @@
         "name": "US Dollar",
         "symbol": "USD"
       },
-      "tags": [
-        "usd-pair"
-      ]
+      "tags": ["usd-pair"]
     },
     {
       "chainId": 101,
@@ -917,9 +828,7 @@
       "feedAddress": "6nkKqyx8fU1MyUHqY6UBMc17ib4U6BzWSeyP24YBFoWN",
       "optimizedFeedAddress": "57HtzNrNGP7LtzsdRbmFqj5jgHUKL2HR2wnrPSrd4Qyu",
       "description": "",
-      "tags": [
-        "volatility"
-      ]
+      "tags": ["volatility"]
     },
     {
       "chainId": 101,
@@ -927,9 +836,7 @@
       "feedAddress": "CX1PvW4qUDy4PPq8egnMVCbVJt8TcPCt7WCZuwmvCfo7",
       "optimizedFeedAddress": "CeTDZpMSTkWDf8sWWHzpvZRRLR32BWcz7WBqjj8YLu6h",
       "description": "",
-      "tags": [
-        "volatility"
-      ]
+      "tags": ["volatility"]
     },
     {
       "chainId": 101,
@@ -937,9 +844,7 @@
       "feedAddress": "5UnQ2tfZxgy6LAUEAjCoz9PTFVLfBY2MHHRCDjtqehpL",
       "optimizedFeedAddress": "7eVviZHFQ5XWCzDP5yJeAECR2h6BhCf5jVM5H8b7vqtH",
       "description": "",
-      "tags": [
-        "volatility"
-      ]
+      "tags": ["volatility"]
     },
     {
       "chainId": 101,
@@ -947,9 +852,7 @@
       "feedAddress": "4wRticsijcNQ1ECT2GmNZmdWBxNeABMX8o1D1nBRJUjB",
       "optimizedFeedAddress": "8yszfCqD4XU3JeHaF9Mb7RzrST2LALST9jPBXrwi6Z3W",
       "description": "",
-      "tags": [
-        "volatility"
-      ]
+      "tags": ["volatility"]
     },
     {
       "chainId": 101,
@@ -957,9 +860,7 @@
       "feedAddress": "4AGPMUEfBCSNqVd4Y6veHAep6VPtrkMa89rBhPqMYegz",
       "optimizedFeedAddress": "2AXWsmzs3h4E3zf14zbVBdAho15TG29Vkq9xTg8jhH2v",
       "description": "",
-      "tags": [
-        "volatility"
-      ]
+      "tags": ["volatility"]
     },
     {
       "chainId": 101,
@@ -967,9 +868,7 @@
       "feedAddress": "2vhpoXkmoc1oGb6tP7ShW42tzcHmNccLnMkQL5LVNmPB",
       "optimizedFeedAddress": "3eXzhGxpatSFg5vaojjVa5Rp4XiT36KuusfrVeaVMDn9",
       "description": "",
-      "tags": [
-        "volatility"
-      ]
+      "tags": ["volatility"]
     },
     {
       "chainId": 101,
@@ -977,9 +876,7 @@
       "feedAddress": "71Udyz54Wu2fFfVDeqmQ7B9WdaBLWqNcXpRLGGxnWeZc",
       "optimizedFeedAddress": "3ScKEX7FPuK6x3qMBDqMbDaTBtXNou5mTYjisEYKC97b",
       "description": "",
-      "tags": [
-        "lp-token"
-      ]
+      "tags": ["lp-token"]
     },
     {
       "chainId": 101,
@@ -987,9 +884,7 @@
       "feedAddress": "78edz675aRmFTAJ1G3j3oJdA51hnLvWvtL8cQeB8HpRR",
       "optimizedFeedAddress": "3GVgeZLdny4T7NGAveeF9BrPbnZbQ3wst4kQYJNabcgL",
       "description": "",
-      "tags": [
-        "lp-token"
-      ]
+      "tags": ["lp-token"]
     },
     {
       "chainId": 101,
@@ -997,9 +892,7 @@
       "feedAddress": "4bkMJsmwrKH3VFw9QW3LH8rXfNEUvFLbp3dAu8wMyT5V",
       "optimizedFeedAddress": "GqFfLd43ZqtidGoAS4y2FMqk1C8JoqVCgDcA6QvaohB7",
       "description": "",
-      "tags": [
-        "lp-token"
-      ]
+      "tags": ["lp-token"]
     },
     {
       "chainId": 101,
@@ -1007,9 +900,7 @@
       "feedAddress": "F4HCHddHye972a7rChEACRf3kS9ZxNRnTKqznyL477cf",
       "optimizedFeedAddress": "963vYeQMGhcSwv4VRFgoJZvKv6YDURuwzxBzN7SXJpsS",
       "description": "",
-      "tags": [
-        "lp-token"
-      ]
+      "tags": ["lp-token"]
     },
     {
       "chainId": 101,
@@ -1028,9 +919,7 @@
         "name": "Solana",
         "symbol": "SOL"
       },
-      "tags": [
-        "nft"
-      ]
+      "tags": ["nft"]
     },
     {
       "chainId": 101,
@@ -1049,9 +938,26 @@
         "name": "Solana",
         "symbol": "SOL"
       },
-      "tags": [
-        "nft"
-      ]
+      "tags": ["nft"]
+    },
+    {
+      "chainId": 101,
+      "name": "Playground Waves Floor Price",
+      "feedAddress": "ERRBVSAke7RHX5mgKiJ1mYH4Kz1CpC7xU6jt3u16SQR6",
+      "optimizedFeedAddress": "4NLWVKvf9b6VMQrBhq7jdo9d9qJF4j7tGDRuCBGBUSyk",
+      "description": "",
+      "quotePair": {
+        "type": "NFT",
+        "name": "Playground Waves ",
+        "symbol": "PlaygroundWaves",
+        "mintAddress": ""
+      },
+      "basePair": {
+        "type": "Solana",
+        "name": "Solana",
+        "symbol": "SOL"
+      },
+      "tags": ["nft"]
     },
     {
       "chainId": 101,
@@ -1059,9 +965,7 @@
       "feedAddress": "FCAVucGDvvZ3MayyBdFRY9uM7ypXmHnNPsaGBWJfWXFU",
       "optimizedFeedAddress": "Gdz8AqXgsK8ekJ2uXW4RUhTQqUGQE1NZJMRaax3wZHM1",
       "description": "",
-      "tags": [
-        "sports"
-      ]
+      "tags": ["sports"]
     },
     {
       "chainId": 101,
@@ -1069,9 +973,7 @@
       "feedAddress": "Ge5mBBV2WwuCgFySds5q6VjKhtaqi3FtdS6JrLrdqgmf",
       "optimizedFeedAddress": "CyZSqNx5YACXx1B5BQ1XJ2wszoFDEpKgthAZP5tSfuhu",
       "description": "",
-      "tags": [
-        "sports"
-      ]
+      "tags": ["sports"]
     }
   ]
 }
