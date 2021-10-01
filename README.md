@@ -1,5 +1,8 @@
 # @switchboard-xyz/feed-registry
 
+Forked from https://github.com/solana-labs/token-list. Temporary repository for testing
+
+
 Switchboard Feed Registry is a package that allows application to query for list of tokens.
 The JSON schema for the feed includes: chainId, name, feedAddress, optimizedFeedAddress, splAddress, tags (optional).
 
