@@ -85,7 +85,7 @@ export class FeedListProvider {
   };
 
   resolve = async (
-    strategy: Strategy = Strategy.Static
+    strategy: Strategy = Strategy.GitHub
   ): Promise<FeedListContainer> => {
     return new FeedListContainer(
       await FeedListProvider.strategies[strategy].resolve()
