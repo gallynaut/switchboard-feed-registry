@@ -1,13 +1,12 @@
 {
   "name": "@gallynaut/switchboard-feed-registry",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Switchboard Feed Registry for V1",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
   "module": "dist/module/index.js",
   "repository": "",
   "license": "Apache",
-  "private": true,
   "keywords": [],
   "scripts": {
     "prepublish": "run-s build:*",
