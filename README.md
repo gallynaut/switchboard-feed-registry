@@ -6,11 +6,11 @@ The JSON schema for the feed includes: chainId, name, feedAddress, optimizedFeed
 ## Installation
 
 ```bash
-npm install @switchboard-xyz/feed-registry
+npm install @gallynaut/switchboard-feed-registry
 ```
 
 ```bash
-yarn add @switchboard-xyz/feed-registry
+yarn add @gallynaut/switchboard-feed-registry
 ```
 
 ## Examples
@@ -31,7 +31,7 @@ new FeedListProvider().resolve().then((feeds) => {
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
-import { FeedListProvider, FeedInfo } from '@switchboard-xyz/feed-registry';
+import { FeedListProvider, FeedInfo } from '@gallynaut/switchboard-feed-registry';
 
 
 export const FeedCard = (props: { mint: string }) => {
