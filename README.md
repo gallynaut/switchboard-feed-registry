@@ -1,16 +1,19 @@
 # @switchboard-xyz/feed-registry
 
+Forked from https://github.com/solana-labs/token-list. Temporary repository for testing
+
+
 Switchboard Feed Registry is a package that allows application to query for list of tokens.
 The JSON schema for the feed includes: chainId, name, feedAddress, optimizedFeedAddress, splAddress, tags (optional).
 
 ## Installation
 
 ```bash
-npm install @switchboard-xyz/feed-registry
+npm install @gallynaut/switchboard-feed-registry
 ```
 
 ```bash
-yarn add @switchboard-xyz/feed-registry
+yarn add @gallynaut/switchboard-feed-registry
 ```
 
 ## Examples
@@ -31,7 +34,7 @@ new FeedListProvider().resolve().then((feeds) => {
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
-import { FeedListProvider, FeedInfo } from '@switchboard-xyz/feed-registry';
+import { FeedListProvider, FeedInfo } from '@gallynaut/switchboard-feed-registry';
 
 
 export const FeedCard = (props: { mint: string }) => {
