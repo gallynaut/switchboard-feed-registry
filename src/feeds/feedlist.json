@@ -954,6 +954,16 @@
     },
     {
       "chainId": 101,
+      "name": "GVOL BTC 14-Day IV",
+      "feedAddress": "4xEJSPjB2NbLEgt8jZRtTSRFnRHuze9xKYGjpLhgvNf5",
+      "optimizedFeedAddress": "5MbpEbpYxcUQzEb9tecNaT2vv1QkyYFWgcTqjmSJPUf7",
+      "description": "",
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 101,
       "name": "GVOL BTC 28-Day IV",
       "feedAddress": "5UnQ2tfZxgy6LAUEAjCoz9PTFVLfBY2MHHRCDjtqehpL",
       "optimizedFeedAddress": "7eVviZHFQ5XWCzDP5yJeAECR2h6BhCf5jVM5H8b7vqtH",
@@ -977,6 +987,16 @@
       "name": "GVOL ETH 7-Day IV",
       "feedAddress": "4AGPMUEfBCSNqVd4Y6veHAep6VPtrkMa89rBhPqMYegz",
       "optimizedFeedAddress": "2AXWsmzs3h4E3zf14zbVBdAho15TG29Vkq9xTg8jhH2v",
+      "description": "",
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 101,
+      "name": "GVOL ETH 14-Day IV",
+      "feedAddress": "27MEUXkMUhpkT5bhxV9B6jR8kkY6LK49UVPZ354TgHLE",
+      "optimizedFeedAddress": "5WEc3XPJNCdCARck4UzxvUYk1TZUWrHocCzS4B6Fk4kV",
       "description": "",
       "tags": [
         "volatility"
@@ -1113,6 +1133,1069 @@
       "description": "",
       "tags": [
         "sports"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "BTC/USD",
+      "feedAddress": "74YzQPGUT9VnjrBz8MuyDLKgKpbDqGot5xZJvTtMi6Ng",
+      "optimizedFeedAddress": "9csVZ3xrp1MtisJMUchkWQJbYtuwbzsDqf9gYpCdyQ5C",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Bitcoin",
+        "symbol": "BTC"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "ETH/USD",
+      "feedAddress": "QJc2HgGhdtW4e7zjvLB1TGRuwEpTre2agU5Lap2UqYz",
+      "optimizedFeedAddress": "45qhBcmMt2mBpGiKtjDJFXNj5MNV2op4AsMHucYWVqsJ",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Ethereum",
+        "symbol": "ETH"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "SOL/USD",
+      "feedAddress": "AdtRGGhmqvom3Jemp5YNrxd9q9unX36BZk1pujkkXijL",
+      "optimizedFeedAddress": "DpoK8Zz69APV9ntjuY9C4LZCxANYMV56M2cbXEdkjxME",
+      "description": "",
+      "quotePair": {
+        "type": "Solana",
+        "name": "Solana",
+        "symbol": "SOL"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "USDT/USD",
+      "feedAddress": "5mp8kbkTYwWWCsKSte8rURjTuyinsqBpJ9xAQsewPDD",
+      "optimizedFeedAddress": "CGs3b88XgTvGT6Dh8DVmsF6Cozsy5kF95fujeicFjkcr",
+      "description": "",
+      "quotePair": {
+        "type": "Stablecoin",
+        "name": "USD Tether",
+        "symbol": "USD"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair",
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "UST/USD",
+      "feedAddress": "8o8gN6VnW45R8pPfQzUJUwJi2adFmsWwfGcFNmicWt61",
+      "optimizedFeedAddress": "3v4SZXgiKD4iKGKGoWy4qtefPocE6ahWpo4Hktmvvcqo",
+      "description": "",
+      "quotePair": {
+        "type": "Stablecoin",
+        "name": "TerraUSD",
+        "symbol": "UST"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair",
+        "stablecoin"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "BNB/USD",
+      "feedAddress": "DZiiWo7kdmgyKKGAyESc7j5t7CQFqVLnHfB5RVegHwse",
+      "optimizedFeedAddress": "3v4SZXgiKD4iKGKGoWy4qtefPocE6ahWpo4Hktmvvcqo",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Binance",
+        "symbol": "BNB"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "ADA/USD",
+      "feedAddress": "AUbsuZNuKJnxkRLWbsco7uBhVQo5T2c9bBF1nfbwuEZ5",
+      "optimizedFeedAddress": "EgHMF6bNy2MH82V1TQppuXTRgaWQxLk2Ai8CPeijRJmn",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Cardano",
+        "symbol": "ADA"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "DOGE/USD",
+      "feedAddress": "FK9MxAy4ryBs6hzQC3ei8KkfgEp9DMSKtckmoLqsYwU4",
+      "optimizedFeedAddress": "7oBKPL9Ajhf4wfhTAS7uSnEHeCqis7rdKM3LcrWFLVUp",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Doge",
+        "symbol": "DOGE"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "DOT/USD",
+      "feedAddress": "AxD1uUspZP53cUVbzGApjwDQqEDQoAtj6Bocy8JJBnDb",
+      "optimizedFeedAddress": "C3LEs7wmB1zwaXuQXa4tz7UnMDmMe4N5p9KFuyRMo4W2",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Polkadot",
+        "symbol": "DOT"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "BCH/USD",
+      "feedAddress": "nrpjSku5TXWSV9gqNYnuPdT2GFZA3npe95x5U33QiWs",
+      "optimizedFeedAddress": "6u6tEt25ZPQTsyEMJZZCVK9WBDCjajzxr8zV1knz2rNA",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Bitcoin Cash",
+        "symbol": "BCH"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "LTC/USD",
+      "feedAddress": "DB3xhMmZPz3WMo8zbLE7dFukcDXqsEbNYUga4Yr1zHBq",
+      "optimizedFeedAddress": "2VTRvLwZeoAAGmHh9Fuk8pMGvzwRbdrd5VbtJhW2rqQ1",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Litecoin",
+        "symbol": "LTC"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "EOS/USD",
+      "feedAddress": "2aa9p78uYzbpbc2iqXBGX1uqNijQnFhdBZ4QUu3ZXN2m",
+      "optimizedFeedAddress": "EBdAkSAEZoyfFYdPj3NNqbFSNTwyx4qQdWABpcujtdxi",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "EOS",
+        "symbol": "EOS"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "LUNA/USD",
+      "feedAddress": "2uVYBtoiwE1sjB7w9ZarRRxx2mmNCbhE6sPfDqTi1GyK",
+      "optimizedFeedAddress": "7rDLFn73inQQ3F1dYJhouHmbryngWZH5WMNGgEKcJZvf",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Terra",
+        "symbol": "LUNA"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "ATOM/USD",
+      "feedAddress": "2AyoC6wqdPzz8Y29zY8s79j3PBx47cJYBpXDy8au26kT",
+      "optimizedFeedAddress": "3mcQo6uapNuKegaAvBoWBhJTakWmZ6VMq1U4xwJXyT8Z",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Cosmos",
+        "symbol": "ATOM"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "XMR/USD",
+      "feedAddress": "mDQcd51c5Y5fcbMfPp2sxipcE28knvdZhjCnUHEqrsM",
+      "optimizedFeedAddress": "8k1bPep1pY1t6gXuRWY8gu1vao6MZBBx9bj3YEvCk3ow",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Monero",
+        "symbol": "XMR"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "ZEC/USD",
+      "feedAddress": "DzPo9qoQgkzrnFyqxErvrJLsSzUXrBEy3v4AKcDNkAfx",
+      "optimizedFeedAddress": "3a6VApWKTavsKzTjGT7qDsUnK5CouGCaVK4MoEKQBXuS",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "ZCash",
+        "symbol": "ZEC"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "ICP/USD",
+      "feedAddress": "Hb8zFcXqQ2GKGcodhr5Up6KeALzRxEUtL5p6iYNMrjkg",
+      "optimizedFeedAddress": "EZ1vgwsznztetB6qTGfzX836wPiaAzBWgyjbEBUXtb9J",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Internet Computer",
+        "symbol": "ICP"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "ALGO/USD",
+      "feedAddress": "7YWVsXg4Tk66SNYMkw9LN3p1457hkQiodwH5fF3ofaZv",
+      "optimizedFeedAddress": "DF8wSenvks3qW94N8yHdC8QFoM5WxKQnfFELXtoyiF8D",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Algorand",
+        "symbol": "ALGO"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "XTZ/USD",
+      "feedAddress": "6YkXAM6W2EQa3ijQMm6XdfFyaovHJYZ6FwCruNY9Hf3c",
+      "optimizedFeedAddress": "HivZkvbeF5MbVjEs4wr2rWvpuNJxC4gqZvRz9wu2eCx5",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Tezos",
+        "symbol": "XTZ"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "AVAX/USD",
+      "feedAddress": "7oAeNhb1ZB1v5VFxLYL6NRNUJqFWiffdRc8kC5eEGTGg",
+      "optimizedFeedAddress": "6npJ7pCBQ1YkaF7wEyu5sfDNN1aHXnvhxh1z9GySKCEs",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Avalanche",
+        "symbol": "AVAX"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "TRX/USD",
+      "feedAddress": "FZzT7QD1Su7JcvBkzzAG5QaS3jo6orZZPp6tWEQC5Ybh",
+      "optimizedFeedAddress": "bXsozNBjGTatNvpUN7Fpx3dMhnHVTaQj9LGB4prM5Wc",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Tron",
+        "symbol": "TRX"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "SRM/USD",
+      "feedAddress": "BAoygKcKN7wk8yKzLD6sxzUQUqLvhBV1rjMA4UJqfZuH",
+      "optimizedFeedAddress": "HhnA7ffw7By3qC3FS9jmg4fhRjfdnST9n4QXzUBuDrak",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Serum",
+        "symbol": "SRM",
+        "mintAddress": "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "AR/USD",
+      "feedAddress": "BPVRQxZ3s9pZmUGSjpZ6KAhR6PdnjPm7uccdqf66MqVg",
+      "optimizedFeedAddress": "BuP88U4P7m1H8eWqFb6SxEr8CtfcCxymHuUtxb5E4eAQ",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "AR Weave",
+        "symbol": "AR"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "FIL/USD",
+      "feedAddress": "GZkgHt5qaJhS3QY5CgbAhgV4Z7pTsXS8ujMxuezjHxdf",
+      "optimizedFeedAddress": "Ab14oyCMveYUcmzEVBzAHzBcXBXFAXs5KikdwEC9p8NG",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Filecoin",
+        "symbol": "FIL"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "KIN/USD",
+      "feedAddress": "14nae7WbZaSxu6qENnjrG2zPWDZ1UsPYiJcFU6LyAnhK",
+      "optimizedFeedAddress": "EKVZhLynhsc89vFpNmprkWRxYqTtcYnfD5oHrEYeesJH",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Kin",
+        "symbol": "KIN",
+        "mintAddress": "kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "COPE/USD",
+      "feedAddress": "8fntpLMJQKbFBRq7vNDQ3Lw1m33kcB2BvdnUYVs4j5G5",
+      "optimizedFeedAddress": "EhEwVmx2X7iqdC5kk89mYjufxFzmDqPc2Wja5fGshJDs",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Cope",
+        "symbol": "COPE",
+        "mintAddress": "8HGyAAB1yoM1ttS7pXjHMa3dukTFGQggnFFH3hJZgzQh"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "USDC/USD",
+      "feedAddress": "CZx29wKMUxaJDq6aLVQTdViPL754tTR64NAgQBUGxxHb",
+      "optimizedFeedAddress": "B5QWpE2msH4C2K4HLLtgrw6yYCX6CaoKVWtkdeQjbNxb",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "mintAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "stablecoin",
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "LINK/USD",
+      "feedAddress": "rxcwjrYfLnH8KPBViaS1EL3kFKUZBK8FGpkFmzxDf4T",
+      "optimizedFeedAddress": "FmFnNPnnmqjkRW4JKd1G1mTuqZS2VieBVpF7hhTeT7fe",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Link",
+        "symbol": "LINK"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "GRT/USD",
+      "feedAddress": "78WGMGmLDYB24i1mppzs74GtZ9BXc9Mu3kFCUbEpahcG",
+      "optimizedFeedAddress": "HR1zU6SLYLLDAaxkj4FvMHmKGt5tf93F2H41fAKKyTS5",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "The Graph",
+        "symbol": "GRT"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "YFI/USD",
+      "feedAddress": "3pMsD3Gqi8ZW51zEYMxanT8GfPWs98okT1CFSFmPn6mt",
+      "optimizedFeedAddress": "JE8vzHjSPewwx7jczaz5wfUBXExmxRVVZr6VBQFze38y",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "yearn.finance",
+        "symbol": "YFI"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "COMP/USD",
+      "feedAddress": "Fe3WmbVNuPYYaW2MEpFiPE1tJXw6NXssTfRd9XStNUNS",
+      "optimizedFeedAddress": "FKRd7kfv2o7DxTiEqVaETyvLhkxYyKMpGJEe7QeLDeAS",
+      "description": "",
+      "quotePair": {
+        "type": "WrappedToken",
+        "name": "Compound",
+        "symbol": "COMP"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "RAY/USD",
+      "feedAddress": "CppyF6264uKZkGua1brTUa2fSVdMFSCszwzDs76HCuzU",
+      "optimizedFeedAddress": "Hk4wQt8oXt6rMCaCHTuLPmYVXZ9BdtXj1N8ko6anktFp",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Raydium",
+        "symbol": "RAY",
+        "mintAddress": "4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "STEP/USD",
+      "feedAddress": "4bTCjzmtdRgK4ZvdaxX1Fx1Z3h6iApfM5qoaAhQBJAkj",
+      "optimizedFeedAddress": "3QYn7NWkVLS4PWTEvMXEDKGLqqdkCsjWZ8tzCoVSKRLE",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Step Finance",
+        "symbol": "STEP",
+        "mintAddress": "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "MER/USD",
+      "feedAddress": "5pHX3fd81SpGywzsw4R12L3Xu3qd418h1PcnHpQAiMWA",
+      "optimizedFeedAddress": "EypRUN2xcbqUFVRG2Ppu2xAtAR8v3AL1hwtGPkKQxiSP",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Mercurial Finance",
+        "symbol": "MER",
+        "mintAddress": "MERt85fc5boKw3BW1eYdxonEuJNvXbiMbs6hvheau5K"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "PAI/USD",
+      "feedAddress": "G26LmGqGvoggYQm2zEKD15rL4LutkZFrtP8mRPd6gPjk",
+      "optimizedFeedAddress": "4R5ZZPpD5anxhqszSqTaLqaJgp7a9f99pcZh5k66qCnv",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Parrot USD",
+        "symbol": "PAI",
+        "mintAddress": "Ea5SjE2Y6yvCeW5dYTn7PYMuW5ikXkvbGdcmSnXeaLjS"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "stablecoin",
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "MNGO/USD",
+      "feedAddress": "C1X7qfn59AKGzeUMtfxDgfyGT3VfQLyAoTpv7ULWmmvm",
+      "optimizedFeedAddress": "8k7F9Xb36oFJsjpCKpsXvg4cgBRoZtwNTc3EzG5Ttd2o",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Mango Markets",
+        "symbol": "MNGO",
+        "mintAddress": "MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "ORCA/USD",
+      "feedAddress": "EHwSRkm2ErRjWxCxrTxrmC7sT2kGb5jJcsiindUHAX7W",
+      "optimizedFeedAddress": "BjfVCncSQP4Cou62YjwR2oVgHURhNW4SxeQEEzVLHbmP",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Orca",
+        "symbol": "ORCA",
+        "mintAddress": "orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "SBR/USD",
+      "feedAddress": "Lp3VNoRQi699VZe6u59TV8J38ELEUzxkaisoWsDuJgB",
+      "optimizedFeedAddress": "8ogEmvxdAQP7tvepCMoPVSh8EnF6W9eVVDcL6EEATPND",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Saber",
+        "symbol": "SBR",
+        "mintAddress": "Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "mSOL/SOL",
+      "feedAddress": "45VccxvbWWtU4ZLjn4XK7qEHQfk9eZU94a4KsRJzMNme",
+      "optimizedFeedAddress": "24R799x1fzuhCLau5S7ABNghsyXXQBYvsbvt4qN5DYSx",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Marinade",
+        "symbol": "mSOL",
+        "mintAddress": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "PORT/USD",
+      "feedAddress": "nNLJQuvjqdd4e53f47BXkXZr4prJbMaeJLHZj4JiYNV",
+      "optimizedFeedAddress": "4LtKpbN9VXmaC4n6Ei2hydTqvvn949tU7eApmDCfuJNi",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "PORT Finance",
+        "symbol": "PORT",
+        "mintAddress": "PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "LIQ/USD",
+      "feedAddress": "6GX3PgHqB4ykkF8sTwhzkCAXcmrrrPLGvMLDCnrxqnb5",
+      "optimizedFeedAddress": "9gbSVUnJoRko7oShqEDkbZsMUDHM4duxnmYN2P6Nsg9p",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "LIQ Protocol",
+        "symbol": "LIQ",
+        "mintAddress": "4wjPQJ6PrkC4dHhYghwJzGBVP78DkBzA2U3kHoFNBuhj"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "stSOL/USD",
+      "feedAddress": "9r2p6vyF8Wp5YB2DASK95yuXEakQth6wmUmV2DpH91WX",
+      "optimizedFeedAddress": "8pzULbJUhSGHwzNDA6pqHNcXCMLhzuu7qYjDtz8XVekn",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "LIDO Staked SOL",
+        "symbol": "stSOL",
+        "mintAddress": "7dHbWXmci3dT8UFYWYZweBLXgycu7Y3iL6trKn1Y7ARj"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "SOCN/USD",
+      "feedAddress": "DpzEKDSszosuzRUdRYzEcEbt6iZ4xhVEANQSRAYDYw8h",
+      "optimizedFeedAddress": "HRmYQr6Ct6gJmpPeYDhF7eaLJF54pSMKu9NQtxKD6Tt",
+      "description": "",
+      "quotePair": {
+        "type": "SplToken",
+        "name": "Socean",
+        "symbol": "SOCN",
+        "mintAddress": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm"
+      },
+      "basePair": {
+        "type": "Fiat",
+        "name": "US Dollar",
+        "symbol": "USD"
+      },
+      "tags": [
+        "usd-pair"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "GVOL BTC 1-Day IV",
+      "feedAddress": "6nkKqyx8fU1MyUHqY6UBMc17ib4U6BzWSeyP24YBFoWN",
+      "optimizedFeedAddress": "FrqVoiu2raniHHNHguyz88r7JebpYKqjERikvJxujmUi",
+      "description": "",
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "GVOL BTC 7-Day IV",
+      "feedAddress": "CX1PvW4qUDy4PPq8egnMVCbVJt8TcPCt7WCZuwmvCfo7",
+      "optimizedFeedAddress": "FrqVoiu2raniHHNHguyz88r7JebpYKqjERikvJxujmUi",
+      "description": "",
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "GVOL BTC 14-Day IV",
+      "feedAddress": "4xEJSPjB2NbLEgt8jZRtTSRFnRHuze9xKYGjpLhgvNf5",
+      "optimizedFeedAddress": "8qvGHYRHknsTEU2h3UBAdbrtqdEBUufGwHpog1XeFRh5",
+      "description": "",
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "GVOL BTC 28-Day IV",
+      "feedAddress": "5UnQ2tfZxgy6LAUEAjCoz9PTFVLfBY2MHHRCDjtqehpL",
+      "optimizedFeedAddress": "89xjL6wKFS7G9TjjcjydXUm69QjKjaNJrJwy3sdD4kN3",
+      "description": "",
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "GVOL ETH 1-Day IV",
+      "feedAddress": "4wRticsijcNQ1ECT2GmNZmdWBxNeABMX8o1D1nBRJUjB",
+      "optimizedFeedAddress": "EAjdcgBQ8hjSgnXKWZx47kyrzt8SSEyH2EjRb1J4mEuY",
+      "description": "",
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "GVOL ETH 7-Day IV",
+      "feedAddress": "4AGPMUEfBCSNqVd4Y6veHAep6VPtrkMa89rBhPqMYegz",
+      "optimizedFeedAddress": "5j5ACk6e4KEZJhecrDQBzeecUCDqkGVZyfgpqVEoKf16",
+      "description": "",
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "GVOL ETH 14-Day IV",
+      "feedAddress": "27MEUXkMUhpkT5bhxV9B6jR8kkY6LK49UVPZ354TgHLE",
+      "optimizedFeedAddress": "39hpeekxbV71XbyQKJQuWRZZuNeT7bm4KhxjnYPYLEGJ",
+      "description": "",
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "GVOL ETH 28-Day IV",
+      "feedAddress": "2vhpoXkmoc1oGb6tP7ShW42tzcHmNccLnMkQL5LVNmPB",
+      "optimizedFeedAddress": "HNyGs3XJDakgQDrFNbSaoMwcGs9isHEMoLBvXwPW3g4e",
+      "description": "",
+      "tags": [
+        "volatility"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "Mercurial Finance PAI-3Pool",
+      "feedAddress": "71Udyz54Wu2fFfVDeqmQ7B9WdaBLWqNcXpRLGGxnWeZc",
+      "optimizedFeedAddress": "BmdGQmhSfXEJKkdTiVarB3fovk6p7Gap5BXDDT8HAuhm",
+      "description": "",
+      "tags": [
+        "lp-token"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "Mercurial Finance UST-3Pool",
+      "feedAddress": "78edz675aRmFTAJ1G3j3oJdA51hnLvWvtL8cQeB8HpRR",
+      "optimizedFeedAddress": "5WdVxnPvDQDyYesUZBRDBwQ1RoAYqi1z7KD79vvFmVjN",
+      "description": "",
+      "tags": [
+        "lp-token"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "Saber USDT-USDC",
+      "feedAddress": "4bkMJsmwrKH3VFw9QW3LH8rXfNEUvFLbp3dAu8wMyT5V",
+      "optimizedFeedAddress": "4QUpkCyxbZhbGFBSdRomX1xuiyzvx56oKrxMoDzmkwjc",
+      "description": "",
+      "tags": [
+        "lp-token"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "Saber UST-USDC",
+      "feedAddress": "F4HCHddHye972a7rChEACRf3kS9ZxNRnTKqznyL477cf",
+      "optimizedFeedAddress": "53ZXHgT3KoiMZ3wo4LmDtj8EdqxVNUyoAPVPptVEBaYE",
+      "description": "",
+      "tags": [
+        "lp-token"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "Degenape Floor Price",
+      "feedAddress": "E9bvEBW2pjBcNCRFPUg9RpxPNWiYjYVXGcT2j1iDhzNS",
+      "optimizedFeedAddress": "37JwRo9Nb8DDtTmo1Trc8PPm8XCvBMwxGptGv7txUq7a",
+      "description": "",
+      "quotePair": {
+        "type": "NFT",
+        "name": "Degenape",
+        "symbol": "Degenape",
+        "mintAddress": "DC2mkgwhy56w3viNtHDjJQmc7SGu2QX785bS4aexojwX"
+      },
+      "basePair": {
+        "type": "Solana",
+        "name": "Solana",
+        "symbol": "SOL"
+      },
+      "tags": [
+        "nft"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "Solana Monkey Business Floor Price",
+      "feedAddress": "5Bej21h56zHkBEvN81nRve7Ny6So61RB5WjAYUQcgxDV",
+      "optimizedFeedAddress": "HT5QkxhbWL6CVihNVnpUk7V6tJCsLArwkqQB7WfSvocB",
+      "description": "",
+      "quotePair": {
+        "type": "NFT",
+        "name": "Solana Monkey Business",
+        "symbol": "SMB",
+        "mintAddress": "9uBX3ASjxWvNBAD1xjbVaKA74mWGZys3RGSF7DdeDD3F"
+      },
+      "basePair": {
+        "type": "Solana",
+        "name": "Solana",
+        "symbol": "SOL"
+      },
+      "tags": [
+        "nft"
+      ]
+    },
+    {
+      "chainId": 103,
+      "name": "Playground Waves Floor Price",
+      "feedAddress": "ERRBVSAke7RHX5mgKiJ1mYH4Kz1CpC7xU6jt3u16SQR6",
+      "optimizedFeedAddress": "Hwo8syccFfJzttU8BJHAzTRgdAkW9bEuSosCbdJ8CDL3",
+      "description": "",
+      "quotePair": {
+        "type": "NFT",
+        "name": "Playground Waves ",
+        "symbol": "PlaygroundWaves",
+        "mintAddress": ""
+      },
+      "basePair": {
+        "type": "Solana",
+        "name": "Solana",
+        "symbol": "SOL"
+      },
+      "tags": [
+        "nft"
       ]
     }
   ]
