@@ -1,6 +1,6 @@
 {
   "name": "@gallynaut/switchboard-feed-registry",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Switchboard Feed Registry for V1",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
@@ -38,7 +38,7 @@
     "reset-hard": "git clean -dfx && git reset --hard && npm i",
     "prepare-release": "run-s reset-hard test cov:check doc:html version doc:publish",
     "purge:cdn": "run-s purge:cdn:*",
-    "purge:cdn:solana": "npx req https://purge.jsdelivr.net/gh/solana-labs/token-list@main/src/tokens/solana.tokenlist.json"
+    "purge:cdn:solana": "npx req https://purge.jsdelivr.net/gh/gallynaut/switchboard-feed-registry@main/src/feeds/feedlist.json"
   },
   "engines": {
     "node": ">=10"
